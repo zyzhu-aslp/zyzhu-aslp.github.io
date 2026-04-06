@@ -1,0 +1,9 @@
+# GitHub 上展示的仓库与用户（与开源语音方向相关）
+github_users:
+  - wenet-e2e
+
+repo_description_lines_max: 2
+
+github_repos:
+  - wenet-e2e/wenet
+  - wenet-e2e/WenetSpeech

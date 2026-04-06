@@ -1,0 +1,13 @@
+# 使用本仓库 Dockerfile 构建镜像（含 bin/entry_point.sh），避免仅 pull Hub 镜像时入口脚本与 Gemfile.lock 不一致。
+# 首次或改 Dockerfile/entry 后请执行: docker compose build --no-cache && docker compose up
+services:
+  jekyll:
+    build: .
+    image: lxie-al-folio:local
+    ports:
+      - 8080:8080
+      - 35729:35729
+    volumes:
+      - .:/srv/jekyll
+    environment:
+      - JEKYLL_ENV=development

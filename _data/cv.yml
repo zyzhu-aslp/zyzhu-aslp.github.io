@@ -1,0 +1,86 @@
+- title: 基本信息 / General Information
+  type: map
+  contents:
+    - name: 姓名 / Name
+      value: 谢磊（Lei Xie）
+    - name: 单位 / Affiliation
+      value: 西北工业大学计算机学院 · ASLP@NPU
+    - name: 职称 / Title
+      value: 教授、博士生导师 / Professor, Ph.D. Supervisor
+    - name: 邮箱 / Email
+      value: lxie@nwpu.edu.cn
+
+- title: 教育背景 / Education
+  type: time_table
+  contents:
+    - title: 博士 · 计算机工程 / Ph.D. in Computer Engineering
+      institution: 西北工业大学 / Northwestern Polytechnical University
+      year: 2004
+      description:
+        - 博士阶段研究方向为语音识别
+
+- title: 工作经历 / Experience
+  type: time_table
+  contents:
+    - title: 教授 / Professor
+      institution: 西北工业大学计算机学院 / School of Computer Science, NPU
+      year: 至今
+      description:
+        - ASLP@NPU 负责人 / Director, Audio Speech & Language Processing Lab
+    - title: 博士后 / Postdoctoral Fellow
+      institution: 香港中文大学 HCCL / The Chinese University of Hong Kong
+      year: 2006 – 2007
+    - title: 高级研究助理 / Senior Research Associate
+      institution: 香港城市大学 / City University of Hong Kong
+      year: 2004 – 2006
+    - title: 访问学者 / Visiting Scientist
+      institution: 布鲁塞尔自由大学 / Vrije Universiteit Brussel
+      year: 2001 – 2002
+
+- title: 学术兼职 / Professional Services
+  type: nested_list
+  contents:
+    - title: 期刊编委 / Editorial Roles
+      items:
+        - Senior Area Editor, IEEE/ACM Transactions on Audio, Speech, and Language Processing
+        - Senior Area Editor, IEEE Signal Processing Letters
+    - title: 学术组织 / Academic Organizations
+      items:
+        - Member, IEEE Speech and Language Processing Technical Committee (SLTC)
+        - Vice Chairperson (2022–2024), ISCA SIG-CSLP
+        - Board Member (2020–2023), APSIPA SLP Technical Committee
+
+- title: 荣誉与获奖 / Honors & Awards
+  type: time_table
+  contents:
+    - year: —
+      items:
+        - 教育部新世纪优秀人才支持计划 / New Century Excellent Talents Program (MOE)
+        - 陕西省青年科技新星 / Shaanxi Young Science and Technology Star
+        - 全球前 2% 顶尖科学家（斯坦福 & Elsevier）/ World's Top 2% Scientists
+        - 华为云 AI 名师 / Huawei Cloud AI Distinguished Teacher
+        - 多项国际会议最佳论文奖 / Multiple Best Paper Awards
+        - 多项国际评测竞赛冠军 / Multiple International Challenge Championships
+
+- title: 开源项目 / Open Source
+  type: time_table
+  contents:
+    - title: <a href="https://github.com/wenet-e2e/wenet">WeNet</a>
+      year: 持续维护
+      description: 端到端语音识别工具包 / End-to-end speech recognition toolkit
+    - title: <a href="https://github.com/wenet-e2e/WenetSpeech">WenetSpeech</a>
+      year: 持续维护
+      description: 开源中文语音数据系列 / Open-source Mandarin speech corpus
+
+- title: 研究方向 / Research Interests
+  type: nested_list
+  contents:
+    - title: 语音处理 / Speech Processing
+      items:
+        - 语音增强与分离 / Speech enhancement & separation
+        - 自动语音识别 / Automatic speech recognition (ASR)
+        - 语音合成与歌声合成 / Text-to-speech & singing voice synthesis
+    - title: 对话式 AI / Conversational AI
+      items:
+        - 口语对话系统 / Spoken dialogue systems
+        - 音频语言模型 / Audio language models

@@ -1,0 +1,29 @@
+{% comment %}
+  人物姓名展示：英文语境用 first / middle / last；中文语境用 display_name_zh。
+  英文语境判定：front matter 中 lang: en，或当前页 URL 含 /en/（与英文主页一致）。
+{% endcomment %}
+{% assign _url = page.url | default: '' %}
+{% assign _en = false %}
+{% if page.lang == 'en' %}
+  {% assign _en = true %}
+{% elsif _url contains '/en/' %}
+  {% assign _en = true %}
+{% endif %}
+
+{% if site.title != 'blank' %}
+  {{- site.title -}}
+{% elsif _en %}
+  {%- if site.first_name -%}
+    <span class="font-weight-bold">{{- site.first_name -}}</span>
+  {%- endif -%}
+  {%- if site.middle_name and site.middle_name != '' %} {{ site.middle_name }}{% endif -%}
+  {%- if site.last_name %} {{ site.last_name }}{% endif -%}
+{% elsif site.display_name_zh and site.display_name_zh != '' %}
+  <span class="font-weight-bold">{{- site.display_name_zh -}}</span>
+{% else %}
+  {%- if site.first_name -%}
+    <span class="font-weight-bold">{{- site.first_name -}}</span>
+  {%- endif -%}
+  {%- if site.middle_name and site.middle_name != '' %} {{ site.middle_name }}{% endif -%}
+  {%- if site.last_name %} {{ site.last_name }}{% endif -%}
+{% endif %}

@@ -1,0 +1,20 @@
+---
+layout: page
+permalink: /publications/
+title: 论文 / Publications
+description: >
+  下方为站点收录的代表性论文（完整列表见 <a href="https://scholar.google.com/citations?user=aZFCUpcAAAAJ" target="_blank">Google Scholar</a>）。
+  <br />Selected works listed here; see <a href="https://scholar.google.com/citations?user=aZFCUpcAAAAJ" target="_blank">Google Scholar</a> for the full publication list.
+nav: false
+nav_order: 2
+---
+
+<!-- _pages/publications.md -->
+
+{% include bib_search.liquid %}
+
+<div class="publications">
+
+{% bibliography %}
+
+</div>
