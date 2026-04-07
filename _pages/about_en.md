@@ -7,7 +7,7 @@ subtitle: Professor · Director, Audio, Speech and Language Processing Lab (ASLP
 
 profile:
   align: right
-  image: lxie_pic.png
+  image: lxie_pic.jpeg
   image_circular: false
   # more_info: >
   #   <p>School of Computer Science</p>
@@ -73,27 +73,29 @@ At ASLP@NPU, he mentors a diverse group of students and researchers working at t
 <div style="margin-top: 1.5rem;"></div>
 ### Lab
 
-The Audio, Speech and Language Processing Lab ([ASLP@NPU](http://www.npu-aslp.org/)), led by Prof. Lei Xie at Northwestern Polytechnical University, is widely recognized as one of the leading research groups in speech, audio, and language technologies. The lab conducts cutting-edge research spanning **speech recognition, speech synthesis, speech enhancement, spoken dialogue systems**, and emerging audio language models, with a strong commitment to both scientific innovation and real-world impact.
+The Audio, Speech and Language Processing Lab ([ASLP@NPU](http://www.npu-aslp.org/)), led by Prof. Lei Xie at Northwestern Polytechnical University, is widely recognized as one of the leading research groups in speech, audio, and language technologies. The lab conducts cutting-edge research spanning speech recognition, speech synthesis, speech enhancement, spoken dialogue systems, and emerging audio language models, with a strong commitment to both scientific innovation and real-world impact.
 
-ASLP@NPU places equal emphasis on research excellence and practical deployment, and has maintained close and long-term collaborations with industry. Many of its research outcomes have been successfully translated into real applications, while its open-source platforms and data resources — including WeNet and WenetSpeech — have been widely adopted by both academia and industry.
+ASLP@NPU places equal emphasis on research excellence and practical deployment, and has maintained close and long-term collaborations with industry. Many of its research outcomes have been successfully translated into real applications, while its open-source platforms and data resources — including [WeNet](https://github.com/wenet-e2e/wenet) and [WenetSpeech](https://github.com/wenet-e2e/WenetSpeech) — have been widely adopted by both academia and industry.
 
 The lab has also played an important role in cultivating talent for the broader AI and speech community, with many alumni becoming technical leaders, senior researchers, and key engineering contributors in leading technology companies and research institutions.
+
+By combining academic depth, engineering strength, and industrial relevance, ASLP@NPU continues to advance the frontier of speech intelligence and next-generation human–machine communication.
 
 <!-- ═══════════ Open-source Projects ═══════════ -->
 
 <div style="margin-top:1.2rem; padding:1rem 1.2rem; border:1px solid var(--global-divider-color, #dee2e6); border-radius:6px; background:var(--global-bg-color, #f8f9fa);">
   <h5 style="margin-top:0;"><i class="fa-brands fa-github" style="margin-right:0.4rem;"></i>Recent Popular Open-source Projects</h5>
   <ul style="margin-bottom:0; padding-left:1.2rem; line-height:1.9;">
-    <li><strong>SoulX-Podcast</strong> — Inference codebase for generating high-fidelity podcasts from text with multi-speaker multi-dialect support</li>
-    <li><strong>DiffRhythm</strong> — End-to-end full-length song generation via latent diffusion</li>
-    <li><strong>OSUM</strong> — Open speech understanding model for limited academic resources</li>
-    <li><strong>SongEval</strong> — Aesthetic evaluation toolkit for generated songs</li>
-    <li><strong>WenetSpeech-Yue</strong> — Large-scale Cantonese speech corpus with multi-dimensional annotation</li>
-    <li><strong>MeanVC</strong> — Lightweight and streaming zero-shot voice conversion via mean flows</li>
-    <li><strong>VoiceSculptor</strong> — Instruct text-to-speech solution based on LLaSA and CosyVoice2</li>
-    <li><strong>WenetSpeech-Chuan</strong> — Large-scale Sichuanese dialect speech corpus</li>
-    <li><strong>DiffRhythm2</strong> — Efficient high-fidelity song generation via block flow matching (fork)</li>
-    <li><strong>WenetSpeech-Wu-Repo</strong> — Large-scale Wu dialect speech corpus with multi-dimensional annotation</li>
+    <li><strong><a href="https://github.com/Soul-AILab/SoulX-Podcast" target="_blank">SoulX-Podcast</a></strong> — Inference codebase for generating high-fidelity podcasts from text with multi-speaker multi-dialect support</li>
+    <li><strong><a href="https://github.com/ASLP-lab/DiffRhythm" target="_blank">DiffRhythm</a></strong> — End-to-end full-length song generation via latent diffusion</li>
+    <li><strong><a href="https://github.com/ASLP-lab/OSUM" target="_blank">OSUM</a></strong> — Open speech understanding model for limited academic resources</li>
+    <li><strong><a href="https://github.com/ASLP-lab/SongEval" target="_blank">SongEval</a></strong> — Aesthetic evaluation toolkit for generated songs</li>
+    <li><strong><a href="https://github.com/ASLP-lab/WenetSpeech-Yue" target="_blank">WenetSpeech-Yue</a></strong> — Large-scale Cantonese speech corpus with multi-dimensional annotation</li>
+    <li><strong><a href="https://github.com/ASLP-lab/MeanVC" target="_blank">MeanVC</a></strong> — Lightweight and streaming zero-shot voice conversion via mean flows</li>
+    <li><strong><a href="https://github.com/ASLP-lab/VoiceSculptor" target="_blank">VoiceSculptor</a></strong> — Instruct text-to-speech solution based on LLaSA and CosyVoice2</li>
+    <li><strong><a href="https://github.com/ASLP-lab/WenetSpeech-Chuan" target="_blank">WenetSpeech-Chuan</a></strong> — Large-scale Sichuanese dialect speech corpus</li>
+    <li><strong><a href="https://github.com/ASLP-lab/DiffRhythm2" target="_blank">DiffRhythm2</a></strong> — Efficient high-fidelity song generation via block flow matching (fork)</li>
+    <li><strong><a href="https://github.com/ASLP-lab/WenetSpeech-Wu-Repo" target="_blank">WenetSpeech-Wu-Repo</a></strong> — Large-scale Wu dialect speech corpus with multi-dimensional annotation</li>
   </ul>
 </div>
 
@@ -106,6 +108,10 @@ The lab has also played an important role in cultivating talent for the broader 
 ### Recent Publications
 
 {% include selected_papers.liquid %}
+
+<div style="text-align:center; margin-top:1rem;">
+  <a href="{{ '/publications/' | relative_url }}" style="font-size:0.8rem" class="btn btn-outline-primary btn-sm">Full Publications &rarr;</a>
+</div>
 
 ---
 

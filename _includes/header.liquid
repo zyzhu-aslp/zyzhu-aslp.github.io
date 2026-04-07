@@ -2,14 +2,13 @@
   <!-- Nav Bar -->
   <nav id="navbar" class="navbar navbar-light navbar-expand-sm {% if site.navbar_fixed %}fixed-top{% else %}sticky-top{% endif %}" role="navigation">
     <div class="container">
-      {% if page.permalink != '/' %}
-        <a class="navbar-brand title font-weight-lighter" href="{{ site.baseurl }}/">
-          {% include person_display_name.liquid %}
+      <div class="navbar-brand title font-weight-lighter" style="display:inline-flex; align-items:center; gap:8px; margin-bottom:0;">
+        <a href="http://www.npu-aslp.org/" target="_blank">
+          <img src="{{ '/assets/img/ASLP.jpg' | relative_url }}" alt="ASLP Logo" style="height:40px; border-radius:4px;">
         </a>
-      {% elsif site.enable_navbar_social %}
-        <!-- Social Icons -->
-        <div class="navbar-brand social">{% include social.liquid %}</div>
-      {% endif %}
+        <a class="font-weight-lighter" href="{{ site.baseurl }}/" style="color:inherit; text-decoration:none;">
+        </a>
+      </div>
       <!-- Navbar Toggle -->
       <button
         class="navbar-toggler collapsed ml-auto"
