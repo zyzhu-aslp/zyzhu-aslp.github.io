@@ -43,7 +43,8 @@ repo_trophies:
 # will use title and url fields
 # Take a look to https://github.com/jekyll/jekyll-feed for more customization
 
-rss_icon: true
+rss_icon: false
+# rss_icon: true
 
 # -----------------------------------------------------------------------------
 # Layout
@@ -334,6 +335,8 @@ scholar:
   details_link: Details
 
   query: "@*"
+  sort_by: year,month
+  order: descending
   group_by: year
   group_order: descending
 

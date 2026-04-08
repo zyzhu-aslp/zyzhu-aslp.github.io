@@ -72,10 +72,11 @@ At ASLP@NPU, he mentors a diverse group of students and researchers working at t
 <!-- ═══════════ 3. Lab ═══════════ -->
 <div style="margin-top: 1.5rem;"></div>
 ### Lab
+<div style="margin-top: 1.5rem;"></div>
 
-The Audio, Speech and Language Processing Lab ([ASLP@NPU](http://www.npu-aslp.org/)), led by Prof. Lei Xie at Northwestern Polytechnical University, is widely recognized as one of the leading research groups in speech, audio, and language technologies. The lab conducts cutting-edge research spanning speech recognition, speech synthesis, speech enhancement, spoken dialogue systems, and emerging audio language models, with a strong commitment to both scientific innovation and real-world impact.
+The Audio, Speech and Language Processing Lab (ASLP@NPU), led by Prof. Lei Xie at Northwestern Polytechnical University, is widely recognized as one of the leading research groups in speech, audio, and language technologies. The lab conducts cutting-edge research spanning speech recognition, speech synthesis, speech enhancement, spoken dialogue systems, and emerging audio language models, with a strong commitment to both scientific innovation and real-world impact.
 
-ASLP@NPU places equal emphasis on research excellence and practical deployment, and has maintained close and long-term collaborations with industry. Many of its research outcomes have been successfully translated into real applications, while its open-source platforms and data resources — including [WeNet](https://github.com/wenet-e2e/wenet) and [WenetSpeech](https://github.com/wenet-e2e/WenetSpeech) — have been widely adopted by both academia and industry.
+ASLP@NPU places equal emphasis on research excellence and practical deployment, and has maintained close and long-term collaborations with industry. Many of its research outcome have been successfully translated into real applications, while its open-source platforms and data resources — including WeNet and WenetSpeech — have been widely adopted by both academia and industry.
 
 The lab has also played an important role in cultivating talent for the broader AI and speech community, with many alumni becoming technical leaders, senior researchers, and key engineering contributors in leading technology companies and research institutions.
 
@@ -118,6 +119,7 @@ By combining academic depth, engineering strength, and industrial relevance, ASL
 <!-- ═══════════ 4. Professional Services ═══════════ -->
 <div style="margin-top: 1.5rem;"></div>
 ### Professional Services
+<div style="margin-top: 1.5rem;"></div>
 
 - Senior Area Editor, *[IEEE/ACM Transactions on Audio, Speech, and Language Processing](https://signalprocessingsociety.org/publications-resources/ieeeacm-transactions-audio-speech-and-language-processing)*
 - Senior Area Editor, *[IEEE Signal Processing Letters](https://signalprocessingsociety.org/publications-resources/ieee-signal-processing-letters)*
@@ -130,13 +132,60 @@ By combining academic depth, engineering strength, and industrial relevance, ASL
 <!-- ═══════════ 5. Awards ═══════════ -->
 <div style="margin-top: 1.5rem;"></div>
 ### Awards
+<div style="margin-top: 1.5rem;"></div>
 
-- New Century Excellent Talents Program, Ministry of Education of China
-- Shaanxi Young Science and Technology Star Award
-- World's Top 2% Scientists (Stanford University & Elsevier)
-- Huawei Cloud AI Distinguished Teacher
-- Multiple Best Paper Awards at international conferences
-- Multiple international challenge championships
+- ICASSP 2026 Automatic Song Aesthetics Evaluation Challenge 1st
+- Interspeech 2026 Audio Reasoning Challenge Single 3rd
+- ASRU 2025 The Singing Voice Conversion Challenge In-Domain Singing Style Conversion 1st
+- ASRU 2025 The Singing Voice Conversion Challenge Zero-Shot Singing Style Conversion 1st
+- NCMMSC 2025 CCF Advanced Audio Technology Competition General Audio Source Separation 1st
+- ICASSP 2024 Packet Loss Concealment (PLC) Challenge 1st
+- ICASSP 2024 Speech Signal Improvement Challenge Real-time 2nd
+- ICASSP 2024 Speech Signal Improvement Challenge Non-real-time 3rd
+- ICASSP 2024 Multimodal Information based Speech Processing (MISP) Challenge 2nd
+- ICME 2024 Chat-scenario Chinese Lipreading (ChatCLR) Challenge Target Speaker Lipreading 2nd
+- SLT 2024 Source Speaker Tracing Challenge（SSTC） Source Speaker Verification Against Voice Conversion 1st
+- SLT 2024 Low-Resource Dysarthria Wake-Up Word Spotting Challenge(LRDWWS Challenge) 1st
+- 2024 Shenghua Cup Acoustic Technology Competition 1st
+- NCMMSC 2024 Chinese Continuous Visual Speech Recognition Challenge (CNVSRC) Single-Speaker VSR 1st
+- NCMMSC 2024 Chinese Continuous Visual Speech Recognition Challenge (CNVSRC) Multi-Speaker VSR 1st
+- ACL 2023 Speech-to-Speech Translation (S2ST) English→Chinese Speech-to-Speech Translation (Offline) 1st
+- ASRU 2023 The Singing Voice Conversion Challenge Any-to-one, In-domain Singing Voice Conversion 1st
+- ASRU 2023 The Singing Voice Conversion Challenge Any-to-one, Cross-domain Singing Voice Conversion 2nd
+- ASRU 2023 MultiLingual Speech processing Universal PERformance Benchmark (SUPERB) 1st
+- ICASSP 2023 Multi-modal Information based Speech Processing (MISP) Challenge Audio-Visual Target Speaker Extraction (AVTSE) 2nd
+- ICASSP 2023 Acoustic Echo Cancellation Challenge (AEC Challenge) Non-personalized AEC 1st
+- ICASSP 2023 Acoustic Echo Cancellation Challenge (AEC Challenge) Personalized AEC 2nd
+- ICASSP 2023 Speech Signal Improvement Challenge Non-real-time 4th
+- ICASSP 2023 Multimodal Information based Speech Processing (MISP) Challenge Audio-Visual Diarization & Recognition 2nd
+- ICASSP 2023 Multimodal Information based Speech Processing (MISP) Challenge Audio-Visual Speaker Diarization 3rd
+- ICASSP 2023 Deep Noise Suppression Challenge Headset Speech Enhancement 1st
+- ICASSP 2023 Deep Noise Suppression Challenge Speakerphone Speech Enhancement 1st
+- Interspeech 2023 CHiME Speech Separation and Recognition Challenge (CHiME-7) UDASE (Unsupervised Domain Adaptation for Speech Enhancement) 1st
+- NCMMSC 2023 Chinese Continuous Visual Speech Recognition Challenge (CNVSRC) Single-Speaker VSR 1st
+- NCMMSC 2023 Chinese Continuous Visual Speech Recognition Challenge (CNVSRC) Multi-Speaker VSR 1st
+- 2023 Shenghua Cup Acoustic Technology Competition Speech Enhancement 1st
+- Interspeech 2022 VoicePrivacy 2022 Challenge (VPC 2022) Speaker Anonymization 1st
+- Interspeech 2022 Far-field Speaker Verification Challenge (FFSVC) Fully-supervised 2nd
+- Interspeech 2022 Far-field Speaker Verification Challenge (FFSVC) Semi-supervised 2nd
+- ISCSLP 2022 Magichub Code-Switching ASR Challenge 2nd
+- ISCSLP 2022 Conversational Short-phrase Speaker Diarization Challenge 3rd
+- O-COCOSDA 2022 Indic Multilingual Speaker Verification Challenge (I-MSV) Constrained 1st
+- O-COCOSDA 2022 Indic Multilingual Speaker Verification Challenge (I-MSV) Unconstrained 3rd
+- NCMMSC 2022 Low-resource Mongolian Text-to-Speech Challenge 3rd
+- VoxSRC 2021 Workshop 2021 VoxCeleb Speaker Recognition Challenge (VoxSRC) Training with VoxCeleb 1/2 Only 2nd
+- VoxSRC 2021 Workshop 2021 VoxCeleb Speaker Recognition Challenge (VoxSRC) Additional Public Data Allowed (e.g., MUSAN, RIR) 2nd
+- Interspeech 2021 Deep Noise Suppression Challenge (DNS Challenge) Real-Time Wideband Speech Enhancement 3rd
+- Interspeech 2021 Acoustic Echo Cancellation Challenge (AEC Challenge) Real-Time AEC & Speech Enhancement 3rd
+- ISCSLP 2021 Personalized Voice Trigger Challenge (PVTC) Close-talking Single-channel 1st
+- Interspeech 2020 Deep Noise Suppression Challenge (DNS Challenge) Real-Time Wideband Speech Enhancement 1st
+- Interspeech 2020 Deep Noise Suppression Challenge (DNS Challenge) Non-Real-Time Wideband Speech Enhancement 2nd
+- ICMI 2019 Mandarin Audio-Visual Speech Recognition Challenge Closed-set Word-level Audio-Visual Speech Recognition 1st
+- Interspeech 2018 CHiME Speech Separation and Recognition Challenge (CHiME-5) 3rd
+- Interspeech 2017 Zero Resource Speech Challenge Unsupervised Subword Unit Modeling 2nd
+- Interspeech 2015 Zero Resource Speech Challenge Spoken Term Discovery 1st
+- MediaEval 2015 Multimedia Benchmark Workshop 2015 Query-by-Example Search on Speech Task (QUESST) QUESST (Query-by-Example Speech Search) 1st
+- MediaEval 2014 Multimedia Benchmark Workshop 2014 Query-by-Example Search on Speech Task (QUESST) QUESST (Query-by-Example Speech Search) 2nd
 
 <div style="margin-top: 1.5rem;"></div>
 ---
