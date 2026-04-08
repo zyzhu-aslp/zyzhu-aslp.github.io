@@ -145,21 +145,21 @@ By combining **academic depth, engineering strength, and industrial relevance**,
 - ASRU 2025 The Singing Voice Conversion Challenge In-Domain Singing Style Conversion 1st
 - ASRU 2025 The Singing Voice Conversion Challenge Zero-Shot Singing Style Conversion 1st
 - NCMMSC 2025 CCF Advanced Audio Technology Competition General Audio Source Separation 1st
+- ICME 2024 Chat-scenario Chinese Lipreading (ChatCLR) Challenge Target Speaker Lipreading 2nd
+- SLT 2024 Source Speaker Tracing Challenge（SSTC） Source Speaker Verification Against Voice Conversion 1st
 - ICASSP 2024 Packet Loss Concealment (PLC) Challenge 1st
 - ICASSP 2024 Speech Signal Improvement Challenge Real-time 2nd
 - ICASSP 2024 Speech Signal Improvement Challenge Non-real-time 3rd
 - ICASSP 2024 Multimodal Information based Speech Processing (MISP) Challenge 2nd
-- ICME 2024 Chat-scenario Chinese Lipreading (ChatCLR) Challenge Target Speaker Lipreading 2nd
-- SLT 2024 Source Speaker Tracing Challenge（SSTC） Source Speaker Verification Against Voice Conversion 1st
-- SLT 2024 Low-Resource Dysarthria Wake-Up Word Spotting Challenge(LRDWWS Challenge) 1st
 - 2024 Shenghua Cup Acoustic Technology Competition 1st
 - NCMMSC 2024 Chinese Continuous Visual Speech Recognition Challenge (CNVSRC) Single-Speaker VSR 1st
 - NCMMSC 2024 Chinese Continuous Visual Speech Recognition Challenge (CNVSRC) Multi-Speaker VSR 1st
+- SLT 2024 Low-Resource Dysarthria Wake-Up Word Spotting Challenge(LRDWWS Challenge) 1st
 - ACL 2023 Speech-to-Speech Translation (S2ST) English→Chinese Speech-to-Speech Translation (Offline) 1st
 - ASRU 2023 The Singing Voice Conversion Challenge Any-to-one, In-domain Singing Voice Conversion 1st
 - ASRU 2023 The Singing Voice Conversion Challenge Any-to-one, Cross-domain Singing Voice Conversion 2nd
-- ASRU 2023 MultiLingual Speech processing Universal PERformance Benchmark (SUPERB) 1st
 - ICASSP 2023 Multi-modal Information based Speech Processing (MISP) Challenge Audio-Visual Target Speaker Extraction (AVTSE) 2nd
+- Interspeech 2023 CHiME Speech Separation and Recognition Challenge (CHiME-7) UDASE (Unsupervised Domain Adaptation for Speech Enhancement) 1st
 - ICASSP 2023 Acoustic Echo Cancellation Challenge (AEC Challenge) Non-personalized AEC 1st
 - ICASSP 2023 Acoustic Echo Cancellation Challenge (AEC Challenge) Personalized AEC 2nd
 - ICASSP 2023 Speech Signal Improvement Challenge Non-real-time 4th
@@ -167,10 +167,10 @@ By combining **academic depth, engineering strength, and industrial relevance**,
 - ICASSP 2023 Multimodal Information based Speech Processing (MISP) Challenge Audio-Visual Speaker Diarization 3rd
 - ICASSP 2023 Deep Noise Suppression Challenge Headset Speech Enhancement 1st
 - ICASSP 2023 Deep Noise Suppression Challenge Speakerphone Speech Enhancement 1st
-- Interspeech 2023 CHiME Speech Separation and Recognition Challenge (CHiME-7) UDASE (Unsupervised Domain Adaptation for Speech Enhancement) 1st
+- 2023 Shenghua Cup Acoustic Technology Competition Speech Enhancement 1st
+- ASRU 2023 MultiLingual Speech processing Universal PERformance Benchmark (SUPERB) 1st
 - NCMMSC 2023 Chinese Continuous Visual Speech Recognition Challenge (CNVSRC) Single-Speaker VSR 1st
 - NCMMSC 2023 Chinese Continuous Visual Speech Recognition Challenge (CNVSRC) Multi-Speaker VSR 1st
-- 2023 Shenghua Cup Acoustic Technology Competition Speech Enhancement 1st
 - Interspeech 2022 VoicePrivacy 2022 Challenge (VPC 2022) Speaker Anonymization 1st
 - Interspeech 2022 Far-field Speaker Verification Challenge (FFSVC) Fully-supervised 2nd
 - Interspeech 2022 Far-field Speaker Verification Challenge (FFSVC) Semi-supervised 2nd
@@ -190,8 +190,8 @@ By combining **academic depth, engineering strength, and industrial relevance**,
 - Interspeech 2018 CHiME Speech Separation and Recognition Challenge (CHiME-5) 3rd
 - Interspeech 2017 Zero Resource Speech Challenge Unsupervised Subword Unit Modeling 2nd
 - Interspeech 2015 Zero Resource Speech Challenge Spoken Term Discovery 1st
-- MediaEval 2015 Multimedia Benchmark Workshop 2015 Query-by-Example Search on Speech Task (QUESST) QUESST (Query-by-Example Speech Search) 1st
-- MediaEval 2014 Multimedia Benchmark Workshop 2014 Query-by-Example Search on Speech Task (QUESST) QUESST (Query-by-Example Speech Search) 2nd
+- MediaEval  Multimedia Benchmark Workshop 2015 Query-by-Example Search on Speech Task (QUESST) QUESST (Query-by-Example Speech Search) 1st
+- MediaEval  Multimedia Benchmark Workshop 2014 Query-by-Example Search on Speech Task (QUESST) QUESST (Query-by-Example Speech Search) 2nd
 
 </div>
 
