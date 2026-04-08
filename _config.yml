@@ -4,7 +4,7 @@
 
 title: blank # the website title (if blank, full name will be used instead)
 # 英文姓名（英文页 /en/ 与 BibTeX、页脚引用等仍用此拼写）
-first_name: "Xie Lei"
+first_name: "Lei Xie"
 middle_name: "" # 无中间名时留空
 last_name:
 # 中文页（非 /en/ 路径）导航与关于页大标题显示；留空则回退为 first + last 英文

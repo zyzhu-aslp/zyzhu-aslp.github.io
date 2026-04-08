@@ -25,10 +25,11 @@ social: true
 </div> -->
 
 <!-- ═══════════ 1. Short Bio ═══════════ -->
+**Lei Xie** is a Professor at **Northwestern Polytechnical University**, where he leads the **Audio, Speech and Language Processing Lab ([ASLP@NPU](http://www.npu-aslp.org/))**. His research focuses on **speech processing, conversational AI, and neural models for speech and language technologies**, with work spanning **speech enhancement, automatic speech recognition, and speech synthesis**.
 
-Lei Xie is a Professor at Northwestern Polytechnical University, where he leads the Audio, Speech and Language Processing Lab ([ASLP@NPU](http://www.npu-aslp.org/)). His research focuses on speech processing, conversational AI, and neural models for speech and language technologies, with work spanning speech enhancement, automatic speech recognition, and speech synthesis.
+He is also committed to building **open-source tools and data resources** for the research community, including the widely used [WeNet](https://github.com/wenet-e2e/wenet) toolkit and the [WenetSpeech](https://github.com/wenet-e2e/WenetSpeech) open-data series.
 
-He is committed to building open-source tools and data resources for the research community, including the widely used [WeNet](https://github.com/wenet-e2e/wenet) toolkit and the [WenetSpeech](https://github.com/wenet-e2e/WenetSpeech) open-data series. He has published over 400 papers, received more than 17,000 [Google Scholar](https://scholar.google.com/citations?user=Qddov9wAAAAJ) citations, and has an H-index of 62. His work has received multiple best paper awards, won international challenge championships, and has been translated into industrial applications. He currently serves as Vice Chairperson of ISCA SIG-CSLP and Senior Area Editor for IEEE/ACM TASLP and IEEE SPL.
+Professor Xie has published **over 400 papers**, received **more than 17,000 [Google Scholar](https://scholar.google.com/citations?user=Qddov9wAAAAJ) citations**, and has an **H-index of 62**. His work has received **multiple best paper awards**, won **international challenge championships**, and has been translated into **industrial applications**. He currently serves as **Vice Chairperson of ISCA SIG-CSLP** and **Senior Area Editor** for **IEEE/ACM TASLP** and **IEEE SPL**.
 
 <!-- ═══════════ 联系方式 ═══════════ -->
 
@@ -43,17 +44,17 @@ He is committed to building open-source tools and data resources for the researc
 <summary><strong>Full Biography</strong></summary>
 <div markdown="1" style="margin-top:0.6rem;">
 
-Lei Xie is a Professor at the School of Computer Science, Northwestern Polytechnical University (NPU), where he leads the Audio, Speech and Language Processing Lab (ASLP@NPU). His research focuses on speech processing, conversational AI, and advanced neural models for speech and language technologies, with contributions spanning speech enhancement, automatic speech recognition, and speech synthesis.
+**Lei Xie** is a Professor at the School of Computer Science, **Northwestern Polytechnical University (NPU)**, where he leads the **Audio, Speech and Language Processing Lab (ASLP@NPU)**. His research focuses on **speech processing**, **conversational AI**, **advanced neural models for speech and language technologies and large audio/speech language models**, with contributions spanning **speech enhancement, automatic speech recognition, speech synthesis and spoken dialogue systems**.
 
-He is also committed to advancing open-source research infrastructure for the community, leading projects such as the widely used WeNet speech recognition toolkit and the WenetSpeech open-data series.
+He is also committed to advancing **open-source research infrastructure** for the community, leading projects such as the widely used **WeNet** speech recognition toolkit and the **WenetSpeech** open-data series.
 
-Dr. Xie received his Ph.D. in Computer Engineering from NPU, where his doctoral research focused on speech recognition. Before joining NPU as a faculty member, he held research positions at Vrije Universiteit Brussel, City University of Hong Kong, and The Chinese University of Hong Kong.
+Dr. Xie received his Ph.D. in **Computer Engineering** from NPU, where his doctoral research focused on speech recognition. Before joining NPU as a faculty member, he held research positions at **Vrije Universiteit Brussel**, **City University of Hong Kong**, and **The Chinese University of Hong Kong**.
 
-He has received several honors and recognitions, including the New Century Excellent Talents Program of the Ministry of Education of China, the Shaanxi Young Science and Technology Star Award, recognition as one of the World's Top 2% Scientists (Stanford University & Elsevier), and the title of Huawei Cloud AI Distinguished Teacher.
+He has received several honors and recognitions, including the **New Century Excellent Talents Program** of the Ministry of Education of China, the **Shaanxi Young Science and Technology Star Award**, recognition as one of the **World’s Top 2% Scientists** (Stanford University & Elsevier), and the title of **Huawei Cloud AI Distinguished Teacher**.
 
-Professor Xie has published over 400 peer-reviewed papers in audio, speech, and language processing, with more than 17,000 citations on Google Scholar and an H-index of 62. His work has received multiple best paper awards at international conferences and won several international challenge championships. A number of his research outcomes have also been successfully translated into real-world industrial applications.
+Professor Xie has published **over 400 peer-reviewed papers** in audio, speech, and language processing, with **more than 17,000 citations** on Google Scholar and an **H-index of 62**. His work has received **multiple best paper awards** at international conferences and won **several international challenge championships**. A number of his research outcomes have also been successfully translated into **real-world industrial applications**.
 
-At ASLP@NPU, he mentors a diverse group of students and researchers working at the intersection of speech, audio, and language intelligence. He is also an active contributor to the research community, serving in leadership and editorial roles. He currently serves as Vice Chairperson of the ISCA Special Interest Group on Chinese Spoken Language Processing (SIG-CSLP) and as Senior Area Editor for both IEEE/ACM Transactions on Audio, Speech, and Language Processing and IEEE Signal Processing Letters.
+At ASLP@NPU, he mentors a diverse group of students and researchers working at the intersection of **speech, audio, and language intelligence**. He is also an active contributor to the research community, serving in leadership and editorial roles. He currently serves as **Vice Chairperson** of the **ISCA Special Interest Group on Chinese Spoken Language Processing (SIG-CSLP)** and as **Senior Area Editor** for both **IEEE/ACM Transactions on Audio, Speech, and Language Processing** and **IEEE Signal Processing Letters**.
 
 </div>
 </details>
@@ -74,13 +75,13 @@ At ASLP@NPU, he mentors a diverse group of students and researchers working at t
 ### Lab
 <div style="margin-top: 1.5rem;"></div>
 
-The Audio, Speech and Language Processing Lab (ASLP@NPU), led by Prof. Lei Xie at Northwestern Polytechnical University, is widely recognized as one of the leading research groups in speech, audio, and language technologies. The lab conducts cutting-edge research spanning speech recognition, speech synthesis, speech enhancement, spoken dialogue systems, and emerging audio language models, with a strong commitment to both scientific innovation and real-world impact.
+The **Audio, Speech and Language Processing Lab (ASLP@NPU)**, led by Prof. Lei Xie at Northwestern Polytechnical University, is widely recognized as one of the leading research groups in **speech, audio, and language technologies**. The lab conducts cutting-edge research spanning **speech recognition, speech synthesis, speech enhancement, spoken dialogue systems, and emerging audio language models**, with a strong commitment to both **scientific innovation and real-world impact**.
 
-ASLP@NPU places equal emphasis on research excellence and practical deployment, and has maintained close and long-term collaborations with industry. Many of its research outcome have been successfully translated into real applications, while its open-source platforms and data resources — including WeNet and WenetSpeech — have been widely adopted by both academia and industry.
+ASLP@NPU places equal emphasis on **research excellence and practical deployment**, and has maintained close and long-term collaborations with industry. Many of its research outcomes have been successfully translated into real applications, while its open-source platforms and data resources — including **WeNet** and **WenetSpeech** — have been widely adopted by both academia and industry.
 
-The lab has also played an important role in cultivating talent for the broader AI and speech community, with many alumni becoming technical leaders, senior researchers, and key engineering contributors in leading technology companies and research institutions.
+The lab has also played an important role in cultivating talent for the broader AI and speech community, with many alumni becoming **technical leaders, senior researchers, and key engineering contributors** in leading technology companies and research institutions.
 
-By combining academic depth, engineering strength, and industrial relevance, ASLP@NPU continues to advance the frontier of speech intelligence and next-generation human–machine communication.
+By combining **academic depth, engineering strength, and industrial relevance**, ASLP@NPU continues to advance the frontier of **speech intelligence** and next-generation human–machine communication.
 
 <!-- ═══════════ Open-source Projects ═══════════ -->
 
@@ -108,6 +109,8 @@ By combining academic depth, engineering strength, and industrial relevance, ASL
 
 ### Recent Publications
 
+<img src="{{ '/assets/img/collaborators.png' | relative_url }}" alt="Collaborators" style="width:100%; border-radius:6px; margin-bottom:1rem;">
+
 {% include selected_papers.liquid %}
 
 <div style="text-align:center; margin-top:1rem;">
@@ -119,20 +122,23 @@ By combining academic depth, engineering strength, and industrial relevance, ASL
 <!-- ═══════════ 4. Professional Services ═══════════ -->
 <div style="margin-top: 1.5rem;"></div>
 ### Professional Services
-<div style="margin-top: 1.5rem;"></div>
+<div markdown="1" style="line-height: 2.0;">
 
 - Senior Area Editor, *[IEEE/ACM Transactions on Audio, Speech, and Language Processing](https://signalprocessingsociety.org/publications-resources/ieeeacm-transactions-audio-speech-and-language-processing)*
 - Senior Area Editor, *[IEEE Signal Processing Letters](https://signalprocessingsociety.org/publications-resources/ieee-signal-processing-letters)*
 - Member, IEEE Speech and Language Processing Technical Committee (SLTC)
 - Vice Chairperson (2022–2024), [ISCA Special Interest Group on Chinese Spoken Language Processing (SIG-CSLP)](https://www.isca-cslp.org/web/)
 - Board Member (2020–2023), APSIPA Speech and Language Processing (SLP) Technical Committee
+
+</div>
+
 <div style="margin-top: 1.5rem;"></div>
 ---
 
 <!-- ═══════════ 5. Awards ═══════════ -->
 <div style="margin-top: 1.5rem;"></div>
 ### Awards
-<div style="margin-top: 1.5rem;"></div>
+<div markdown="1" style="line-height: 2.0;">
 
 - ICASSP 2026 Automatic Song Aesthetics Evaluation Challenge 1st
 - Interspeech 2026 Audio Reasoning Challenge Single 3rd
@@ -186,6 +192,8 @@ By combining academic depth, engineering strength, and industrial relevance, ASL
 - Interspeech 2015 Zero Resource Speech Challenge Spoken Term Discovery 1st
 - MediaEval 2015 Multimedia Benchmark Workshop 2015 Query-by-Example Search on Speech Task (QUESST) QUESST (Query-by-Example Speech Search) 1st
 - MediaEval 2014 Multimedia Benchmark Workshop 2014 Query-by-Example Search on Speech Task (QUESST) QUESST (Query-by-Example Speech Search) 2nd
+
+</div>
 
 <div style="margin-top: 1.5rem;"></div>
 ---
