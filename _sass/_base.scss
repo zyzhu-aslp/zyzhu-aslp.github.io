@@ -700,6 +700,9 @@ footer.sticky-bottom {
         abbr {
           display: inline-block;
           background-color: var(--global-theme-color);
+          white-space: normal;
+          word-wrap: break-word;
+          height: auto;
           margin-bottom: 0.5rem;
 
           a {
