@@ -1,4 +1,9 @@
 {% if site.bib_search %}
   <script src="{{ '/assets/js/bibsearch.js' | relative_url | bust_file_cache }}" type="module"></script>
+  <p style="font-size:0.85rem; color:var(--global-text-color-light, #6c757d); margin-bottom:0.4rem;">
+    可搜索论文条目中的所有可见文本，包括：论文标题、作者姓名、会议/期刊名、年份、摘要内容等。<br>
+    You can search for all visible text in the publication entries, including the title, authors, conference/journal name, year, absract content, etc.
+  </p>
+  <div style="margin-top: 1.5rem;"></div>
   <input type="text" id="bibsearch" spellcheck="false" autocomplete="off" class="search bibsearch-form-input" placeholder="Type to filter">
 {% endif %}

@@ -64,7 +64,13 @@ layout: default
       <div class="social">
         <div class="contact-icons">{% include social.liquid %}</div>
 
-        <div class="contact-note">{{ site.contact_note }}</div>
+        <div class="contact-note">
+          {% if page.lang == 'en' or page.url contains '/en/' %}
+            {{ site.contact_note_en }}
+          {% else %}
+            {{ site.contact_note_zh }}
+          {% endif %}
+        </div>
       </div>
     {% endif %}
 

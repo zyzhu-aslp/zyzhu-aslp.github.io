@@ -115,9 +115,9 @@ x_username: # your X handle
 youtube_id: # your youtube channel id (youtube.com/@<youtube_id>)
 zotero_username: # your zotero username
 
-contact_note: >
-  欢迎通过邮箱联系；更多动态见实验室主页与 Google Scholar。
-  <br />
+contact_note_zh: >
+  欢迎通过邮箱联系，更多动态见实验室主页与 Google Scholar。
+contact_note_en: >
   For collaboration and student inquiries, please email me or visit the ASLP lab website.
 
 # -----------------------------------------------------------------------------
@@ -323,7 +323,7 @@ scholar:
   source: /_bibliography/
   # bibliography: papers.bib
   # bibliography: papers_journal.bib
-  bibliography: papers_conference.bib
+  bibliography: papers_merged.bib
   bibliography_template: bib
   # Note: if you have latex math in your bibtex, the latex filter
   # preprocessing may conflict with MathJAX if the latter is enabled.

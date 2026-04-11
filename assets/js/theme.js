@@ -231,6 +231,53 @@ let determineComputedTheme = () => {
   }
 };
 
+let showThemeToast = () => {
+  let setting = determineThemeSetting();
+  let isZh = !window.location.pathname.startsWith("/en");
+  let label, icon;
+  if (setting === "light") {
+    label = isZh ? "浅色模式" : "Light Mode";
+    icon = "☀️";
+  } else if (setting === "dark") {
+    label = isZh ? "深色模式" : "Dark Mode";
+    icon = "🌙";
+  } else {
+    label = isZh ? "跟随系统" : "System";
+    icon = "💻";
+  }
+
+  let existing = document.getElementById("theme-toast");
+  if (existing) existing.remove();
+
+  let toast = document.createElement("div");
+  toast.id = "theme-toast";
+  toast.textContent = icon + " " + label;
+  Object.assign(toast.style, {
+    position: "fixed",
+    top: "70px",
+    left: "50%",
+    transform: "translateX(-50%)",
+    padding: "6px 18px",
+    borderRadius: "20px",
+    fontSize: "0.85rem",
+    fontWeight: "500",
+    color: "var(--global-text-color, #333)",
+    background: "var(--global-bg-color, #fff)",
+    boxShadow: "0 2px 12px rgba(0,0,0,0.15)",
+    zIndex: "9999",
+    opacity: "0",
+    transition: "opacity 0.3s ease",
+    pointerEvents: "none",
+  });
+  document.body.appendChild(toast);
+
+  requestAnimationFrame(() => { toast.style.opacity = "1"; });
+  setTimeout(() => {
+    toast.style.opacity = "0";
+    setTimeout(() => toast.remove(), 350);
+  }, 1500);
+};
+
 let initTheme = () => {
   let themeSetting = determineThemeSetting();
 
@@ -242,6 +289,7 @@ let initTheme = () => {
 
     mode_toggle.addEventListener("click", function () {
       toggleThemeSetting();
+      showThemeToast();
     });
   });
 

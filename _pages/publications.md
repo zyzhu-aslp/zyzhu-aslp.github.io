@@ -1,9 +1,9 @@
 ---
 layout: page
 permalink: /publications/
-title: 论文 / Publications
+title: Publications
 description:
-nav: true
+nav: false
 nav_order: 2
 ---
 
