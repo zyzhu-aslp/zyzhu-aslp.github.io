@@ -1,6 +1,6 @@
 ---
 layout: about
-title: 主页 / Homepage
+title: 主页
 permalink: /
 subtitle: 西北工业大学教授 · 音频语音与语言处理实验室（ASLP）负责人
 
