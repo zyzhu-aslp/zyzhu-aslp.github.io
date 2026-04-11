@@ -137,58 +137,58 @@ By combining academic depth, engineering strength, and industrial relevance, ASL
 ### Awards
 <div markdown="1" style="line-height: 2.0;">
 
-- ICASSP 2026 Automatic Song Aesthetics Evaluation Challenge 1st
-- Interspeech 2026 Audio Reasoning Challenge Single 3rd
-- ASRU 2025 The Singing Voice Conversion Challenge In-Domain Singing Style Conversion 1st
-- ASRU 2025 The Singing Voice Conversion Challenge Zero-Shot Singing Style Conversion 1st
-- NCMMSC 2025 CCF Advanced Audio Technology Competition General Audio Source Separation 1st
-- ICME 2024 Chat-scenario Chinese Lipreading (ChatCLR) Challenge Target Speaker Lipreading 2nd
-- SLT 2024 Source Speaker Tracing Challenge（SSTC） Source Speaker Verification Against Voice Conversion 1st
-- ICASSP 2024 Packet Loss Concealment (PLC) Challenge 1st
-- ICASSP 2024 Speech Signal Improvement Challenge Real-time 2nd
-- ICASSP 2024 Speech Signal Improvement Challenge Non-real-time 3rd
-- ICASSP 2024 Multimodal Information based Speech Processing (MISP) Challenge 2nd
-- 2024 Shenghua Cup Acoustic Technology Competition 1st
-- NCMMSC 2024 Chinese Continuous Visual Speech Recognition Challenge (CNVSRC) Single-Speaker VSR 1st
-- NCMMSC 2024 Chinese Continuous Visual Speech Recognition Challenge (CNVSRC) Multi-Speaker VSR 1st
-- SLT 2024 Low-Resource Dysarthria Wake-Up Word Spotting Challenge(LRDWWS Challenge) 1st
-- ACL 2023 Speech-to-Speech Translation (S2ST) English→Chinese Speech-to-Speech Translation (Offline) 1st
-- ASRU 2023 The Singing Voice Conversion Challenge Any-to-one, In-domain Singing Voice Conversion 1st
-- ASRU 2023 The Singing Voice Conversion Challenge Any-to-one, Cross-domain Singing Voice Conversion 2nd
-- ICASSP 2023 Multi-modal Information based Speech Processing (MISP) Challenge Audio-Visual Target Speaker Extraction (AVTSE) 2nd
-- Interspeech 2023 CHiME Speech Separation and Recognition Challenge (CHiME-7) UDASE (Unsupervised Domain Adaptation for Speech Enhancement) 1st
-- ICASSP 2023 Acoustic Echo Cancellation Challenge (AEC Challenge) Non-personalized AEC 1st
-- ICASSP 2023 Acoustic Echo Cancellation Challenge (AEC Challenge) Personalized AEC 2nd
-- ICASSP 2023 Speech Signal Improvement Challenge Non-real-time 4th
-- ICASSP 2023 Multimodal Information based Speech Processing (MISP) Challenge Audio-Visual Diarization & Recognition 2nd
-- ICASSP 2023 Multimodal Information based Speech Processing (MISP) Challenge Audio-Visual Speaker Diarization 3rd
-- ICASSP 2023 Deep Noise Suppression Challenge Headset Speech Enhancement 1st
-- ICASSP 2023 Deep Noise Suppression Challenge Speakerphone Speech Enhancement 1st
-- 2023 Shenghua Cup Acoustic Technology Competition Speech Enhancement 1st
-- ASRU 2023 MultiLingual Speech processing Universal PERformance Benchmark (SUPERB) 1st
-- NCMMSC 2023 Chinese Continuous Visual Speech Recognition Challenge (CNVSRC) Single-Speaker VSR 1st
-- NCMMSC 2023 Chinese Continuous Visual Speech Recognition Challenge (CNVSRC) Multi-Speaker VSR 1st
-- Interspeech 2022 VoicePrivacy 2022 Challenge (VPC 2022) Speaker Anonymization 1st
-- Interspeech 2022 Far-field Speaker Verification Challenge (FFSVC) Fully-supervised 2nd
-- Interspeech 2022 Far-field Speaker Verification Challenge (FFSVC) Semi-supervised 2nd
-- ISCSLP 2022 Magichub Code-Switching ASR Challenge 2nd
-- ISCSLP 2022 Conversational Short-phrase Speaker Diarization Challenge 3rd
-- O-COCOSDA 2022 Indic Multilingual Speaker Verification Challenge (I-MSV) Constrained 1st
-- O-COCOSDA 2022 Indic Multilingual Speaker Verification Challenge (I-MSV) Unconstrained 3rd
-- NCMMSC 2022 Low-resource Mongolian Text-to-Speech Challenge 3rd
-- VoxSRC 2021 Workshop 2021 VoxCeleb Speaker Recognition Challenge (VoxSRC) Training with VoxCeleb 1/2 Only 2nd
-- VoxSRC 2021 Workshop 2021 VoxCeleb Speaker Recognition Challenge (VoxSRC) Additional Public Data Allowed (e.g., MUSAN, RIR) 2nd
-- Interspeech 2021 Deep Noise Suppression Challenge (DNS Challenge) Real-Time Wideband Speech Enhancement 3rd
-- Interspeech 2021 Acoustic Echo Cancellation Challenge (AEC Challenge) Real-Time AEC & Speech Enhancement 3rd
-- ISCSLP 2021 Personalized Voice Trigger Challenge (PVTC) Close-talking Single-channel 1st
-- Interspeech 2020 Deep Noise Suppression Challenge (DNS Challenge) Real-Time Wideband Speech Enhancement 1st
-- Interspeech 2020 Deep Noise Suppression Challenge (DNS Challenge) Non-Real-Time Wideband Speech Enhancement 2nd
-- ICMI 2019 Mandarin Audio-Visual Speech Recognition Challenge Closed-set Word-level Audio-Visual Speech Recognition 1st
-- Interspeech 2018 CHiME Speech Separation and Recognition Challenge (CHiME-5) 3rd
-- Interspeech 2017 Zero Resource Speech Challenge Unsupervised Subword Unit Modeling 2nd
-- Interspeech 2015 Zero Resource Speech Challenge Spoken Term Discovery 1st
-- MediaEval  Multimedia Benchmark Workshop 2015 Query-by-Example Search on Speech Task (QUESST) QUESST (Query-by-Example Speech Search) 1st
-- MediaEval  Multimedia Benchmark Workshop 2014 Query-by-Example Search on Speech Task (QUESST) QUESST (Query-by-Example Speech Search) 2nd
+- 1st Place, ICASSP 2026 Automatic Song Aesthetics Evaluation Challenge
+- 3rd Place, Single Track, Interspeech 2026 Audio Reasoning Challenge
+- 1st Place, In-Domain Singing Style Conversion Track, ASRU 2025 The Singing Voice Conversion Challenge
+- 1st Place, Zero-Shot Singing Style Conversion Track, ASRU 2025 The Singing Voice Conversion Challenge
+- 1st Place, General Audio Source Separation Track, NCMMSC 2025 CCF Advanced Audio Technology Competition
+- 2nd Place, Target Speaker Lipreading Track, ICME 2024 Chat-scenario Chinese Lipreading (ChatCLR) Challenge
+- 1st Place, Source Speaker Verification Against Voice Conversion Track, SLT 2024 Source Speaker Tracing Challenge（SSTC）
+- 1st Place, ICASSP 2024 Packet Loss Concealment (PLC) Challenge
+- 2nd Place, Real-time Track, ICASSP 2024 Speech Signal Improvement Challenge
+- 3rd Place, Non-real-time Track, ICASSP 2024 Speech Signal Improvement Challenge
+- 2nd Place, ICASSP 2024 Multimodal Information based Speech Processing (MISP) Challenge
+- 1st Place, 2024 Shenghua Cup Acoustic Technology Competition
+- 1st Place, Single-Speaker VSR Track, NCMMSC 2024 Chinese Continuous Visual Speech Recognition Challenge (CNVSRC)
+- 1st Place, Multi-Speaker VSR Track, NCMMSC 2024 Chinese Continuous Visual Speech Recognition Challenge (CNVSRC)
+- 1st Place, SLT 2024 Low-Resource Dysarthria Wake-Up Word Spotting Challenge(LRDWWS Challenge)
+- 1st Place, English→Chinese Speech-to-Speech Translation (Offline) Track, ACL 2023 Speech-to-Speech Translation (S2ST)
+- 1st Place, Any-to-one, In-domain Singing Voice Conversion Track, ASRU 2023 The Singing Voice Conversion Challenge
+- 2nd Place, Any-to-one, Cross-domain Singing Voice Conversion Track, ASRU 2023 The Singing Voice Conversion Challenge
+- 2nd Place, Audio-Visual Target Speaker Extraction (AVTSE) Track, ICASSP 2023 Multi-modal Information based Speech Processing - (MISP) Challenge
+- 1st Place, UDASE (Unsupervised Domain Adaptation for Speech Enhancement) Track, Interspeech 2023 CHiME Speech Separation and - Recognition Challenge (CHiME-7)
+- 1st Place, Non-personalized AEC Track, ICASSP 2023 Acoustic Echo Cancellation Challenge (AEC Challenge)
+- 2nd Place, Personalized AEC Track, ICASSP 2023 Acoustic Echo Cancellation Challenge (AEC Challenge)
+- 4th Place, Non-real-time Track, ICASSP 2023 Speech Signal Improvement Challenge
+- 2nd Place, Audio-Visual Diarization & Recognition Track, ICASSP 2023 Multimodal Information based Speech Processing (MISP) - Challenge
+- 3rd Place, Audio-Visual Speaker Diarization Track, ICASSP 2023 Multimodal Information based Speech Processing (MISP) Challenge
+- 1st Place, Headset Speech Enhancement Track, ICASSP 2023 Deep Noise Suppression Challenge
+- 1st Place, Speakerphone Speech Enhancement Track, ICASSP 2023 Deep Noise Suppression Challenge
+- 1st Place, Speech Enhancement Track, 2023 Shenghua Cup Acoustic Technology Competition
+- 1st Place, ASRU 2023 MultiLingual Speech processing Universal PERformance Benchmark (SUPERB)
+- 1st Place, Single-Speaker VSR Track, NCMMSC 2023 Chinese Continuous Visual Speech Recognition Challenge (CNVSRC)
+- 1st Place, Multi-Speaker VSR Track, NCMMSC 2023 Chinese Continuous Visual Speech Recognition Challenge (CNVSRC)
+- 1st Place, Speaker Anonymization Track, Interspeech 2022 VoicePrivacy 2022 Challenge (VPC 2022)
+- 2nd Place, Fully-supervised Track, Interspeech 2022 Far-field Speaker Verification Challenge (FFSVC)
+- 2nd Place, Semi-supervised Track, Interspeech 2022 Far-field Speaker Verification Challenge (FFSVC)
+- 2nd Place, ISCSLP 2022 Magichub Code-Switching ASR Challenge
+- 3rd Place, ISCSLP 2022 Conversational Short-phrase Speaker Diarization Challenge
+- 1st Place, Constrained Track, O-COCOSDA 2022 Indic Multilingual Speaker Verification Challenge (I-MSV)
+- 3rd Place, Unconstrained Track, O-COCOSDA 2022 Indic Multilingual Speaker Verification Challenge (I-MSV)
+- 3rd Place, NCMMSC 2022 Low-resource Mongolian Text-to-Speech Challenge
+- 2nd Place, Training with VoxCeleb 1/2 Only Track, VoxSRC 2021 Workshop 2021 VoxCeleb Speaker Recognition Challenge (VoxSRC)
+- 2nd Place, Additional Public Data Allowed (e.g., MUSAN, RIR) Track, VoxSRC 2021 Workshop 2021 VoxCeleb Speaker Recognition - Challenge (VoxSRC)
+- 3rd Place, Real-Time Wideband Speech Enhancement Track, Interspeech 2021 Deep Noise Suppression Challenge (DNS Challenge)
+- 3rd Place, Real-Time AEC & Speech Enhancement Track, Interspeech 2021 Acoustic Echo Cancellation Challenge (AEC Challenge)
+- 1st Place, Close-talking Single-channel Track, ISCSLP 2021 Personalized Voice Trigger Challenge (PVTC)
+- 1st Place, Real-Time Wideband Speech Enhancement Track, Interspeech 2020 Deep Noise Suppression Challenge (DNS Challenge)
+- 2nd Place, Non-Real-Time Wideband Speech Enhancement Track, Interspeech 2020 Deep Noise Suppression Challenge (DNS Challenge)
+- 1st Place, Closed-set Word-level Audio-Visual Speech Recognition Track, ICMI 2019 Mandarin Audio-Visual Speech Recognition - Challenge
+- 3rd Place, Interspeech 2018 CHiME Speech Separation and Recognition Challenge (CHiME-5)
+- 2nd Place, Unsupervised Subword Unit Modeling Track, Interspeech 2017 Zero Resource Speech Challenge
+- 1st Place, Spoken Term Discovery Track, Interspeech 2015 Zero Resource Speech Challenge
+- 1st Place, QUESST (Query-by-Example Speech Search) Track, MediaEval  Multimedia Benchmark Workshop 2015 Query-by-Example Search - on Speech Task (QUESST)
+- 2nd Place, QUESST (Query-by-Example Speech Search) Track, MediaEval  Multimedia Benchmark Workshop 2014 Query-by-Example Search - on Speech Task (QUESST)
 
 </div>
 
