@@ -106,7 +106,7 @@ By combining academic depth, engineering strength, and industrial relevance, ASL
 
 ### Recent Publications
 
-<img src="{{ '/assets/img/collaborators_cloud_en2.png' | relative_url }}" alt="Collaborators" style="width:80%; border-radius:6px; margin-bottom:1rem;">
+<img src="{{ '/assets/img/pub_topic_cloud_en.png' | relative_url }}" alt="Collaborators" style="width:80%; border-radius:6px; margin-bottom:1rem;">
 
 {% include selected_papers.liquid %}
 

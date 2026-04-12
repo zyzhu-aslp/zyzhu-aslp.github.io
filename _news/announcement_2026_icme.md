@@ -6,4 +6,4 @@ related_posts: false
 lang: zh
 ---
 
-4 篇论文被 **ICME 2026** 录用。
+4 篇论文被 [ICME 2026](https://2026.ieeeicme.org/) 录用

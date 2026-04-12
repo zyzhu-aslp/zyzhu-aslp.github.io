@@ -6,4 +6,4 @@ related_posts: false
 lang: en
 ---
 
-8 papers accepted by **ICASSP2026**
+8 papers accepted by [ICASSP2026](https://2026.ieeeicassp.org/event/about-conference/)

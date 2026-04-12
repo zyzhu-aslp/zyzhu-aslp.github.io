@@ -6,4 +6,4 @@ related_posts: false
 lang: zh
 ---
 
-8 篇论文被 **ICASSP 2026** 接收
+8 篇论文被 [ICASSP 2026](https://2026.ieeeicassp.org/event/about-conference/) 接收

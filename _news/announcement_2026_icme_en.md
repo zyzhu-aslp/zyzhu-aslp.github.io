@@ -6,4 +6,4 @@ related_posts: false
 lang: en
 ---
 
-4 papers accepted by **ICME2026**.
+4 papers accepted by [ICME2026](https://2026.ieeeicme.org/)
