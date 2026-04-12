@@ -52,7 +52,7 @@ rss_icon: false
 
 navbar_fixed: true
 footer_fixed: true
-search_enabled: true
+search_enabled: false # 关闭导航栏全局搜索（⌘K / Ctrl+K）
 socials_in_search: true
 bib_search: true
 
