@@ -36,6 +36,7 @@
             <li class="nav-item"><a class="nav-link section-nav-link" href="#home">主页</a></li>
             <li class="nav-item"><a class="nav-link section-nav-link" href="#highlights">高光</a></li>
             <li class="nav-item"><a class="nav-link section-nav-link" href="#news">新闻</a></li>
+            <li class="nav-item"><a class="nav-link section-nav-link" href="#lab">实验室</a></li>
             <li class="nav-item"><a class="nav-link section-nav-link" href="#publications">论文</a></li>
             <li class="nav-item"><a class="nav-link section-nav-link" href="#services">兼职</a></li>
             <li class="nav-item"><a class="nav-link section-nav-link" href="#awards">获奖</a></li>
@@ -43,6 +44,7 @@
             <!-- English homepage: in-page section nav -->
             <li class="nav-item"><a class="nav-link section-nav-link" href="#home">Home</a></li>
             <li class="nav-item"><a class="nav-link section-nav-link" href="#news">News</a></li>
+            <li class="nav-item"><a class="nav-link section-nav-link" href="#lab">Lab</a></li>
             <li class="nav-item"><a class="nav-link section-nav-link" href="#publications">Publications</a></li>
             <li class="nav-item"><a class="nav-link section-nav-link" href="#services">Services</a></li>
             <li class="nav-item"><a class="nav-link section-nav-link" href="#awards">Awards</a></li>
@@ -139,7 +141,7 @@
 <style>
   html { scroll-behavior: smooth; }
   /* 固定导航栏偏移，确保锚点跳转时内容不被遮挡 */
-  [id="home"], [id="highlights"], [id="news"], [id="publications"], [id="services"], [id="awards"] {
+  [id="home"], [id="highlights"], [id="news"], [id="lab"], [id="publications"], [id="services"], [id="awards"] {
     scroll-margin-top: 80px;
   }
   /* 当前锚点高亮 */
@@ -150,7 +152,7 @@
 </style>
 <script>
 document.addEventListener('DOMContentLoaded', function () {
-  var sections = document.querySelectorAll('[id="home"], [id="highlights"], [id="news"], [id="publications"], [id="services"], [id="awards"]');
+  var sections = document.querySelectorAll('[id="home"], [id="highlights"], [id="news"], [id="lab"], [id="publications"], [id="services"], [id="awards"]');
   var navLinks = document.querySelectorAll('.section-nav-link');
   if (!sections.length || !navLinks.length) return;
 

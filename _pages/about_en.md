@@ -22,7 +22,7 @@ social: true
 <div id="home"></div>
 
 <!-- ═══════════ 1. Short Bio ═══════════ -->
-Lei Xie is a Professor at Northwestern Polytechnical University, where he leads the Audio, Speech and Language Processing Lab ([ASLP@NPU](http://www.npu-aslp.org/)). His research focuses on speech processing, conversational AI, and neural models for speech and language technologies, with work spanning speech enhancement, automatic speech recognition, and speech synthesis.
+Lei Xie is a Professor at Northwestern Polytechnical University, where he leads the Audio, Speech and Language Processing Lab ([ASLP@NPU](http://www.npu-aslp.org/english)). His research focuses on speech processing, conversational AI, and neural models for speech and language technologies, with work spanning speech enhancement, automatic speech recognition, and speech synthesis.
 
 He is also committed to building open-source tools and data resources for the research community, including the widely used [WeNet](https://github.com/wenet-e2e/wenet) toolkit and the [WenetSpeech](https://github.com/wenet-e2e/WenetSpeech) open-data series.
 
@@ -68,11 +68,11 @@ At ASLP@NPU, he mentors a diverse group of students and researchers working at t
 ---
 
 <!-- ═══════════ 3. Lab ═══════════ -->
-<div style="margin-top: 1.5rem;"></div>
+<div id="lab" style="margin-top: 1.5rem;"></div>
 ### Lab
 <div style="margin-top: 1.5rem;"></div>
 
-The Audio, Speech and Language Processing Lab (ASLP@NPU), led by Prof. Lei Xie at Northwestern Polytechnical University, is widely recognized as one of the leading research groups in speech, audio, and language technologies. The lab conducts cutting-edge research spanning speech recognition, speech synthesis, speech enhancement, spoken dialogue systems, and emerging audio language models, with a strong commitment to both scientific innovation and real-world impact.
+[The Audio, Speech and Language Processing Lab (ASLP@NPU)](http://www.npu-aslp.org/english), led by Prof. Lei Xie at Northwestern Polytechnical University, is widely recognized as one of the leading research groups in speech, audio, and language technologies. The lab conducts cutting-edge research spanning speech recognition, speech synthesis, speech enhancement, spoken dialogue systems, and emerging audio language models, with a strong commitment to both scientific innovation and real-world impact.
 
 ASLP@NPU places equal emphasis on research excellence and practical deployment, and has maintained close and long-term collaborations with industry. Many of its research outcomes have been successfully translated into real applications, while its open-source platforms and data resources — including WeNet and WenetSpeech — have been widely adopted by both academia and industry.
 
@@ -93,7 +93,7 @@ By combining academic depth, engineering strength, and industrial relevance, ASL
     <li><strong><a href="https://github.com/ASLP-lab/MeanVC" target="_blank">MeanVC</a></strong> — Lightweight and streaming zero-shot voice conversion via mean flows</li>
     <li><strong><a href="https://github.com/ASLP-lab/VoiceSculptor" target="_blank">VoiceSculptor</a></strong> — Instruct text-to-speech solution based on LLaSA and CosyVoice2</li>
     <li><strong><a href="https://github.com/ASLP-lab/WenetSpeech-Chuan" target="_blank">WenetSpeech-Chuan</a></strong> — Large-scale Sichuanese dialect speech corpus</li>
-    <li><strong><a href="https://github.com/ASLP-lab/DiffRhythm2" target="_blank">DiffRhythm2</a></strong> — Efficient high-fidelity song generation via block flow matching (fork)</li>
+    <li><strong><a href="https://github.com/ASLP-lab/DiffRhythm2" target="_blank">DiffRhythm2</a></strong> — Efficient high-fidelity song generation via block flow matching</li>
     <li><strong><a href="https://github.com/ASLP-lab/WenetSpeech-Wu-Repo" target="_blank">WenetSpeech-Wu-Repo</a></strong> — Large-scale Wu dialect speech corpus with multi-dimensional annotation</li>
   </ul>
 </div>
@@ -152,14 +152,13 @@ By combining academic depth, engineering strength, and industrial relevance, ASL
 - 1st Place, Single-Speaker VSR Track, NCMMSC 2024 Chinese Continuous Visual Speech Recognition Challenge (CNVSRC)
 - 1st Place, Multi-Speaker VSR Track, NCMMSC 2024 Chinese Continuous Visual Speech Recognition Challenge (CNVSRC)
 - 1st Place, SLT 2024 Low-Resource Dysarthria Wake-Up Word Spotting Challenge(LRDWWS Challenge)
-- 1st Place, English→Chinese Speech-to-Speech Translation (Offline) Track, ACL 2023 Speech-to-Speech Translation (S2ST)
+- 1st Place, Speech-to-Speech Translation (Offline) Track, ACL 2023 Speech-to-Speech Translation (S2ST)
 - 1st Place, Any-to-one, In-domain Singing Voice Conversion Track, ASRU 2023 The Singing Voice Conversion Challenge
 - 2nd Place, Any-to-one, Cross-domain Singing Voice Conversion Track, ASRU 2023 The Singing Voice Conversion Challenge
-- 2nd Place, Audio-Visual Target Speaker Extraction (AVTSE) Track, ICASSP 2023 Multi-modal Information based Speech Processing - (MISP) Challenge
-- 1st Place, UDASE (Unsupervised Domain Adaptation for Speech Enhancement) Track, Interspeech 2023 CHiME Speech Separation and - Recognition Challenge (CHiME-7)
+- 2nd Place, Audio-Visual Target Speaker Extraction (AVTSE) Track, ICASSP 2023 Multi-modal Information based Speech Processing (MISP) Challenge
+- 1st Place, UDASE (Unsupervised Domain Adaptation for Speech Enhancement) Track, Interspeech 2023 CHiME Speech Separation and Recognition Challenge (CHiME-7)
 - 1st Place, Non-personalized AEC Track, ICASSP 2023 Acoustic Echo Cancellation Challenge (AEC Challenge)
 - 2nd Place, Personalized AEC Track, ICASSP 2023 Acoustic Echo Cancellation Challenge (AEC Challenge)
-- 4th Place, Non-real-time Track, ICASSP 2023 Speech Signal Improvement Challenge
 - 2nd Place, Audio-Visual Diarization & Recognition Track, ICASSP 2023 Multimodal Information based Speech Processing (MISP) - Challenge
 - 3rd Place, Audio-Visual Speaker Diarization Track, ICASSP 2023 Multimodal Information based Speech Processing (MISP) Challenge
 - 1st Place, Headset Speech Enhancement Track, ICASSP 2023 Deep Noise Suppression Challenge
@@ -187,8 +186,8 @@ By combining academic depth, engineering strength, and industrial relevance, ASL
 - 3rd Place, Interspeech 2018 CHiME Speech Separation and Recognition Challenge (CHiME-5)
 - 2nd Place, Unsupervised Subword Unit Modeling Track, Interspeech 2017 Zero Resource Speech Challenge
 - 1st Place, Spoken Term Discovery Track, Interspeech 2015 Zero Resource Speech Challenge
-- 1st Place, QUESST (Query-by-Example Speech Search) Track, MediaEval  Multimedia Benchmark Workshop 2015 Query-by-Example Search - on Speech Task (QUESST)
-- 2nd Place, QUESST (Query-by-Example Speech Search) Track, MediaEval  Multimedia Benchmark Workshop 2014 Query-by-Example Search - on Speech Task (QUESST)
+- 1st Place, QUESST (Query-by-Example Speech Search) Track, MediaEval Multimedia Benchmark Workshop 2015 Query-by-Example Search on Speech Task (QUESST)
+- 2nd Place, QUESST (Query-by-Example Speech Search) Track, MediaEval Multimedia Benchmark Workshop 2014 Query-by-Example Search on Speech Task (QUESST)
 
 </div>
 
