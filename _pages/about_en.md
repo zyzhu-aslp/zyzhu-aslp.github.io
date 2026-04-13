@@ -137,7 +137,6 @@ By combining academic depth, engineering strength, and industrial relevance, ASL
 ### Awards
 <div markdown="1" style="line-height: 2.0;">
 
-- 1st Place, ICASSP 2026 Automatic Song Aesthetics Evaluation Challenge
 - 3rd Place, Single Track, Interspeech 2026 Audio Reasoning Challenge
 - 1st Place, In-Domain Singing Style Conversion Track, ASRU 2025 The Singing Voice Conversion Challenge
 - 1st Place, Zero-Shot Singing Style Conversion Track, ASRU 2025 The Singing Voice Conversion Challenge
