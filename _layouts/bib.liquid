@@ -245,7 +245,8 @@
         {% endif %}
       {% endif %}
       {% if entry.website %}
-        <a href="{{ entry.website }}" class="btn btn-sm z-depth-0" role="button">Website</a>
+        <!-- 论文外链按钮：BibTeX 仍使用 website 字段，仅展示文案统一为 HIGHLIGHT -->
+        <a href="{{ entry.website }}" class="btn btn-sm z-depth-0" role="button">HIGHLIGHT</a>
       {% endif %}
     </div>
     {% if site.enable_publication_badges %}
