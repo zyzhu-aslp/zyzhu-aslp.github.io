@@ -95,6 +95,7 @@ By combining academic depth, engineering strength, and industrial relevance, ASL
     <li><strong><a href="https://github.com/ASLP-lab/WenetSpeech-Chuan" target="_blank">WenetSpeech-Chuan</a></strong> — Large-scale Sichuanese dialect speech corpus</li>
     <li><strong><a href="https://github.com/ASLP-lab/DiffRhythm2" target="_blank">DiffRhythm2</a></strong> — Efficient high-fidelity song generation via block flow matching</li>
     <li><strong><a href="https://github.com/ASLP-lab/WenetSpeech-Wu-Repo" target="_blank">WenetSpeech-Wu-Repo</a></strong> — Large-scale Wu dialect speech corpus with multi-dimensional annotation</li>
+    <li><strong><a href="https://github.com/ASLP-lab/SongFormer/" target="_blank">SongFormer</a></strong> — Ultra-Fast, Ultra-Accurate Music Structure Analysis Tool</li>
   </ul>
 </div>
 
