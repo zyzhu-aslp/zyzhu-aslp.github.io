@@ -26,7 +26,7 @@ Lei Xie is a Professor at Northwestern Polytechnical University, where he leads 
 
 He is also committed to building open-source tools and data resources for the research community, including the widely used [WeNet](https://github.com/wenet-e2e/wenet) toolkit and the [WenetSpeech](https://github.com/wenet-e2e/WenetSpeech) open-data series.
 
-Professor Xie has published over 400 papers, received more than 17,000 [Google Scholar](https://scholar.google.com/citations?user=Qddov9wAAAAJ) citations, and has an H-index of 62. His work has received multiple best paper awards, won international challenge championships, and has been translated into industrial applications. He currently serves as Vice Chairperson of ISCA SIG-CSLP and Senior Area Editor for IEEE/ACM TASLP and IEEE SPL.
+Professor Xie has published over 400 papers, received more than 18,000 [Google Scholar](https://scholar.google.com/citations?user=Qddov9wAAAAJ) citations, and has an H-index of 63. His work has received multiple best paper awards, won international challenge championships, and has been translated into industrial applications. He currently serves as Vice Chairperson of ISCA SIG-CSLP and Senior Area Editor for IEEE/ACM TASLP and IEEE SPL.
 
 <!-- ═══════════ 联系方式 ═══════════ -->
 
