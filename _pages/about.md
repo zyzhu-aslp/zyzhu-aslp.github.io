@@ -25,7 +25,7 @@ social: true
 
 他长期致力于建设面向学术界的开源工具与数据资源，指导了被广泛使用的 [WeNet](https://github.com/wenet-e2e/wenet) 语音识别工具包和 [WenetSpeech](https://github.com/wenet-e2e/WenetSpeech) 开源语音数据系列等项目。
 
-他曾获得多项荣誉，包括教育部新世纪优秀人才支持计划、陕西省青年科技新星、全球前2%顶尖科学家（斯坦福大学 & Elsevier）以及华为云 AI 名师等。已发表论文 400 余篇，[Google Scholar](https://scholar.google.com/citations?user=Qddov9wAAAAJ) 引用超过 17000 次，H-index 为 62。曾获多项国际会议最佳论文奖及国际评测冠军，诸多研究成果已实现产业落地。现任 ISCA SIG-CSLP 副主席，并担任 IEEE/ACM TASLP 与 IEEE SPL 的高级领域编委（SAE）。
+他曾获得多项荣誉，包括教育部新世纪优秀人才支持计划、陕西省青年科技新星、全球前2%顶尖科学家（斯坦福大学 & Elsevier）以及华为云 AI 名师等。已发表论文 400 余篇，[Google Scholar](https://scholar.google.com/citations?user=Qddov9wAAAAJ) 引用超过 18000 次，H-index 为 63。曾获多项国际会议最佳论文奖及国际评测冠军，诸多研究成果已实现产业落地。现任 ISCA SIG-CSLP 副主席，并担任 IEEE/ACM TASLP 与 IEEE SPL 的高级领域编委（SAE）。
 
 <!-- ═══════════ 联系方式 ═══════════ -->
 
