@@ -65,11 +65,10 @@ social: true
   <!-- 卡片 1 -->
   <div class="col-sm-6 mt-3">
     <div class="card h-100">
-      <img src="/assets/img/highlights/wswu.png" class="card-img-top" alt="WeNet" style="height:200px; object-fit:cover;">
+      <img src="/assets/img/highlights/soulx_transcriber.png" class="card-img-top" alt="SoulX-Transcriber" style="height:200px; object-fit:cover;">
       <div class="card-body">
-        <h5 class="card-title" style="font-size:1.2rem; line-height:1.6;">WenetSpeech-Wu：“史上最大”的多维度标注吴语语音数据集来啦！</h5>
-        <!-- <p class="card-text">WenetSpeech-Wu：“史上最大”的多维度标注吴语语音数据集来啦！</p> -->
-        <a href="https://mp.weixin.qq.com/s/13ZIhd6iDHJs7ZGhDWZXzw" class="btn btn-sm btn-outline-primary" style="font-size:0.8rem" target="_blank">详细了解 ></a>
+        <h5 class="card-title" style="font-size:1.2rem; line-height:1.6;">开源！SoulX-Transcriber——面向复杂对话的端到端多说话人语音转录框架来啦！</h5>
+        <a href="https://mp.weixin.qq.com/s/8m6hSPRwQvdusDLD_KfNqQ" class="btn btn-sm btn-outline-primary" style="font-size:0.8rem" target="_blank">详细了解 ></a>
       </div>
     </div>
   </div>
@@ -116,6 +115,8 @@ ASLP@NPU 高度重视科研成果的工程化与产业落地，长期与工业�
 <div style="margin-top:1.2rem; padding:1rem 1.2rem; border:1px solid var(--global-divider-color, #dee2e6); border-radius:6px; background:var(--global-bg-color, #f8f9fa);">
   <h5 style="margin-top:0;"><i class="fa-brands fa-github" style="margin-right:0.4rem;"></i>开源项目概览</h5>
   <ul style="margin-bottom:0; padding-left:1.2rem; line-height:1.9;">
+    <li><strong><a href="https://github.com/Soul-AILab/SoulX-Transcriber" target="_blank">SoulX-Transcriber</a></strong> — 面向复杂对话的端到端多说话人语音转录框架</li>
+    <li><strong><a href="https://github.com/ASLP-lab/YingMusic-Singer-Plus" target="_blank">YingMusic-Singer+</a></strong> — 支持灵活歌词操控与无标注旋律引导的可控歌声合成</li>
     <li><strong><a href="https://github.com/Soul-AILab/SoulX-Podcast" target="_blank">SoulX-Podcast</a></strong> — 基于文本生成高保真播客，支持多人对话、多种方言</li>
     <li><strong><a href="https://github.com/ASLP-lab/DiffRhythm" target="_blank">DiffRhythm</a></strong> — 基于潜在扩散的端到端全长歌曲生成模型</li>
     <li><strong><a href="https://github.com/ASLP-lab/OSUM" target="_blank">OSUM</a></strong> — 面向学术有限资源的开放语音理解模型</li>

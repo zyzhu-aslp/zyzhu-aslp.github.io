@@ -85,6 +85,8 @@ By combining academic depth, engineering strength, and industrial relevance, ASL
 <div style="margin-top:1.2rem; padding:1rem 1.2rem; border:1px solid var(--global-divider-color, #dee2e6); border-radius:6px; background:var(--global-bg-color, #f8f9fa);">
   <h5 style="margin-top:0;"><i class="fa-brands fa-github" style="margin-right:0.4rem;"></i>Recent Popular Open-source Projects</h5>
   <ul style="margin-bottom:0; padding-left:1.2rem; line-height:1.9;">
+    <li><strong><a href="https://github.com/Soul-AILab/SoulX-Transcriber" target="_blank">SoulX-Transcriber</a></strong> — A Robust End-to-End Framework for Multi-Speaker Speech Transcription</li>
+    <li><strong><a href="https://github.com/ASLP-lab/YingMusic-Singer-Plus" target="_blank">YingMusic-Singer+</a></strong> — Controllable Singing Voice Synthesis with Flexible Lyric Manipulation and Annotation-free Melody Guidance</li>
     <li><strong><a href="https://github.com/Soul-AILab/SoulX-Podcast" target="_blank">SoulX-Podcast</a></strong> — Inference codebase for generating high-fidelity podcasts from text with multi-speaker multi-dialect support</li>
     <li><strong><a href="https://github.com/ASLP-lab/DiffRhythm" target="_blank">DiffRhythm</a></strong> — End-to-end full-length song generation via latent diffusion</li>
     <li><strong><a href="https://github.com/ASLP-lab/OSUM" target="_blank">OSUM</a></strong> — Open speech understanding model for limited academic resources</li>
