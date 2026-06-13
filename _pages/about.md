@@ -65,21 +65,24 @@ social: true
   <!-- 卡片 1 -->
   <div class="col-sm-6 mt-3">
     <div class="card h-100">
-      <img src="/assets/img/highlights/soulx_transcriber.png" class="card-img-top" alt="SoulX-Transcriber" style="height:200px; object-fit:cover;">
+      <div style="height:200px; display:flex; align-items:center; justify-content:center; background:var(--global-bg-color, #f8f9fa);">
+        <img src="/assets/img/highlights/soulx_transcriber.png" alt="SoulX-Transcriber" style="max-width:100%; max-height:100%; object-fit:contain;">
+      </div>
       <div class="card-body">
         <h5 class="card-title" style="font-size:1.2rem; line-height:1.6;">开源！SoulX-Transcriber——面向复杂对话的端到端多说话人语音转录框架来啦！</h5>
         <a href="https://mp.weixin.qq.com/s/8m6hSPRwQvdusDLD_KfNqQ" class="btn btn-sm btn-outline-primary" style="font-size:0.8rem" target="_blank">详细了解 ></a>
       </div>
     </div>
   </div>
-  <!-- 卡片 2 -->
+  <!-- 卡片 2：SmoothConv & DuplexConv 全双工语音数据集开源推文 -->
   <div class="col-sm-6 mt-3">
     <div class="card h-100">
-      <img src="/assets/img/highlights/voicesculptor.png" class="card-img-top" alt="WenetSpeech" style="height:200px; object-fit:cover;">
+      <div style="height:200px; display:flex; align-items:center; justify-content:center; background:var(--global-bg-color, #f8f9fa);">
+        <img src="/assets/img/highlights/duplex_dataset.png" alt="SmoothConv & DuplexConv" style="max-width:100%; max-height:100%; object-fit:contain;">
+      </div>
       <div class="card-body">
-        <h5 class="card-title" style="font-size:1.2rem; line-height:1.6;">开源！VoiceSculptor——你的声音仅由你定义！自然语言音色设计模型来啦！</h5>
-        <!-- <p class="card-text">目前规模最大的开源中文语音数据集（10000+ 小时），已成为语音识别研究的重要基准。</p> -->
-        <a href="https://mp.weixin.qq.com/s/BPzQIAexayX2XLdD1oTkKw" class="btn btn-sm btn-outline-primary" style="font-size:0.8rem" target="_blank">详细了解 ></a>
+        <h5 class="card-title" style="font-size:1.2rem; line-height:1.6;">SmoothConv & DuplexConv：面向对话式 AI 的大规模中文全双工语音数据集开源！</h5>
+        <a href="https://mp.weixin.qq.com/s/qSEY3YuvaH3oAvlhFBPCww" class="btn btn-sm btn-outline-primary" style="font-size:0.8rem" target="_blank">详细了解 ></a>
       </div>
     </div>
   </div>
