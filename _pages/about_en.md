@@ -150,7 +150,7 @@ By combining academic depth, engineering strength, and industrial relevance, ASL
 - 2nd Place, Real-time Track, ICASSP 2024 Speech Signal Improvement Challenge
 - 3rd Place, Non-real-time Track, ICASSP 2024 Speech Signal Improvement Challenge
 - 2nd Place, ICASSP 2024 Multimodal Information based Speech Processing (MISP) Challenge
-- 1st Place, 2024 Shenghua Cup Acoustic Technology Competition
+- 1st Place, Multi-modal Long-distance Pickup Track, 2024 Acoustical Society of China Shenghua Cup Acoustic Technology Competition
 - 1st Place, Single-Speaker VSR Track, NCMMSC 2024 Chinese Continuous Visual Speech Recognition Challenge (CNVSRC)
 - 1st Place, Multi-Speaker VSR Track, NCMMSC 2024 Chinese Continuous Visual Speech Recognition Challenge (CNVSRC)
 - 1st Place, SLT 2024 Low-Resource Dysarthria Wake-Up Word Spotting Challenge(LRDWWS Challenge)
@@ -169,6 +169,7 @@ By combining academic depth, engineering strength, and industrial relevance, ASL
 - 1st Place, ASRU 2023 MultiLingual Speech processing Universal PERformance Benchmark (SUPERB)
 - 1st Place, Single-Speaker VSR Track, NCMMSC 2023 Chinese Continuous Visual Speech Recognition Challenge (CNVSRC)
 - 1st Place, Multi-Speaker VSR Track, NCMMSC 2023 Chinese Continuous Visual Speech Recognition Challenge (CNVSRC)
+- Huawei Cloud AI Distinguished Teacher Award (2023)
 - 1st Place, Speaker Anonymization Track, Interspeech 2022 VoicePrivacy 2022 Challenge (VPC 2022)
 - 2nd Place, Fully-supervised Track, Interspeech 2022 Far-field Speaker Verification Challenge (FFSVC)
 - 2nd Place, Semi-supervised Track, Interspeech 2022 Far-field Speaker Verification Challenge (FFSVC)
@@ -177,6 +178,8 @@ By combining academic depth, engineering strength, and industrial relevance, ASL
 - 1st Place, Constrained Track, O-COCOSDA 2022 Indic Multilingual Speaker Verification Challenge (I-MSV)
 - 3rd Place, Unconstrained Track, O-COCOSDA 2022 Indic Multilingual Speaker Verification Challenge (I-MSV)
 - 3rd Place, NCMMSC 2022 Low-resource Mongolian Text-to-Speech Challenge
+- Huawei Cloud Outstanding Partner Award (2022)
+- Huawei Cloud Outstanding Innovative Collaboration Team Award (2022)
 - 2nd Place, Training with VoxCeleb 1/2 Only Track, VoxSRC 2021 Workshop 2021 VoxCeleb Speaker Recognition Challenge (VoxSRC)
 - 2nd Place, Additional Public Data Allowed (e.g., MUSAN, RIR) Track, VoxSRC 2021 Workshop 2021 VoxCeleb Speaker Recognition - Challenge (VoxSRC)
 - 3rd Place, Real-Time Wideband Speech Enhancement Track, Interspeech 2021 Deep Noise Suppression Challenge (DNS Challenge)
@@ -184,7 +187,9 @@ By combining academic depth, engineering strength, and industrial relevance, ASL
 - 1st Place, Close-talking Single-channel Track, ISCSLP 2021 Personalized Voice Trigger Challenge (PVTC)
 - 1st Place, Real-Time Wideband Speech Enhancement Track, Interspeech 2020 Deep Noise Suppression Challenge (DNS Challenge)
 - 2nd Place, Non-Real-Time Wideband Speech Enhancement Track, Interspeech 2020 Deep Noise Suppression Challenge (DNS Challenge)
+- Huawei Outstanding Technical Cooperation Achievement Award (2020)
 - 1st Place, Closed-set Word-level Audio-Visual Speech Recognition Track, ICMI 2019 Mandarin Audio-Visual Speech Recognition - Challenge
+- Meituan Research Collaboration and Practice Award (2019–2020)
 - 3rd Place, Interspeech 2018 CHiME Speech Separation and Recognition Challenge (CHiME-5)
 - 2nd Place, Unsupervised Subword Unit Modeling Track, Interspeech 2017 Zero Resource Speech Challenge
 - 1st Place, Spoken Term Discovery Track, Interspeech 2015 Zero Resource Speech Challenge

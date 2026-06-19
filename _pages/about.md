@@ -186,7 +186,7 @@ ASLP@NPU 高度重视科研成果的工程化与产业落地，长期与工业�
 - 亚军, Real-time Track, ICASSP 2024 Speech Signal Improvement Challenge
 - 季军, Non-real-time Track, ICASSP 2024 Speech Signal Improvement Challenge
 - 亚军, ICASSP 2024 Multimodal Information based Speech Processing (MISP) Challenge
-- 冠军, 2024 声华杯声学技术大赛
+- 冠军, 多模态远距离拾音赛道，2024中国声学学会声华杯声学技术大赛
 - 冠军, 单说话人视觉语音识别赛道, NCMMSC 2024 中文连续视觉语音识别挑战赛 (CNVSRC)
 - 冠军, 多说话人视觉语音识别赛道, NCMMSC 2024 中文连续视觉语音识别挑战赛 (CNVSRC)
 - 冠军, SLT 2024 Low-Resource Dysarthria Wake-Up Word Spotting Challenge(LRDWWS Challenge)
@@ -205,6 +205,7 @@ ASLP@NPU 高度重视科研成果的工程化与产业落地，长期与工业�
 - 冠军, ASRU 2023 MultiLingual Speech processing Universal PERformance Benchmark (SUPERB)
 - 冠军, 单说话人视觉语音识别赛道, NCMMSC 2023 中文连续视觉语音识别挑战赛 (CNVSRC)
 - 冠军, 多说话人视觉语音识别赛道, NCMMSC 2023 中文连续视觉语音识别挑战赛 (CNVSRC)
+- 2023年度华为云AI名师奖
 - 冠军, Speaker Anonymization Track, Interspeech 2022 VoicePrivacy 2022 Challenge (VPC 2022)
 - 亚军, Fully-supervised Track, Interspeech 2022 Far-field Speaker Verification Challenge (FFSVC)
 - 亚军, Semi-supervised Track, Interspeech 2022 Far-field Speaker Verification Challenge (FFSVC)
@@ -213,6 +214,8 @@ ASLP@NPU 高度重视科研成果的工程化与产业落地，长期与工业�
 - 冠军, Constrained Track, O-COCOSDA 2022 Indic Multilingual Speaker Verification Challenge (I-MSV)
 - 季军, Unconstrained Track, O-COCOSDA 2022 Indic Multilingual Speaker Verification Challenge (I-MSV)
 - 季军, NCMMSC 2022 面向蒙古语的低资源语音合成竞赛
+- 2022年度华为云优秀合作伙伴奖
+- 2022华为云优秀创新合作团队
 - 亚军, Training with VoxCeleb 1/2 Only Track, VoxSRC 2021 Workshop 2021 VoxCeleb Speaker Recognition Challenge (VoxSRC)
 - 亚军, Additional Public Data Allowed (e.g., MUSAN, RIR) Track, VoxSRC 2021 Workshop 2021 VoxCeleb Speaker Recognition - Challenge (VoxSRC)
 - 季军, Real-Time Wideband Speech Enhancement Track, Interspeech 2021 Deep Noise Suppression Challenge (DNS Challenge)
@@ -220,7 +223,9 @@ ASLP@NPU 高度重视科研成果的工程化与产业落地，长期与工业�
 - 冠军, Close-talking Single-channel Track, ISCSLP 2021 Personalized Voice Trigger Challenge (PVTC)
 - 冠军, Real-Time Wideband Speech Enhancement Track, Interspeech 2020 Deep Noise Suppression Challenge (DNS Challenge)
 - 亚军, Non-Real-Time Wideband Speech Enhancement Track, Interspeech 2020 Deep Noise Suppression Challenge (DNS Challenge)
+- 华为2020年优秀技术成果合作奖
 - 冠军, Closed-set Word-level Audio-Visual Speech Recognition Track, ICMI 2019 Mandarin Audio-Visual Speech Recognition - Challenge
+- 2019-2020年度美团科研合作实践奖
 - 季军, Interspeech 2018 CHiME Speech Separation and Recognition Challenge (CHiME-5)
 - 亚军, Unsupervised Subword Unit Modeling Track, Interspeech 2017 Zero Resource Speech Challenge
 - 冠军, Spoken Term Discovery Track, Interspeech 2015 Zero Resource Speech Challenge
