@@ -1,3 +1,172 @@
+@inproceedings{Hu2026omnicodec,
+  title        = {OmniCodec: Low Frame Rate Universal Audio Codec with Semantic-Acoustic Disentanglement},
+  author       = {Hu, Jingbin and Zhang, Haoyu and Guo, Dake and Zhan, Qirui and Li, Wenhao and Chen, Huakang and Ma, Guobin and Xie, Hanke and Wang, Chengyou and Xie, Pengyuan and Xie, Chuan and Zhang, Qiang and Xie, Lei},
+  booktitle    = {Interspeech},
+  year         = {2026},
+  time         = {2026-09-27},
+  abbr         = {Interspeech},
+  arxiv        = {2603.20638},
+  abstract     = {Large Language Models (LLMs) have advanced audio generation through discrete representation learning. However, most existing neural codecs focus on speech and emphasize reconstruction fidelity, overlooking unified low frame rate modeling across diverse audio domains, including speech, music, and general sound. Moreover, high reconstruction quality does not necessarily yield semantically informative representations, limiting effectiveness in downstream generation tasks. We propose OmniCodec, a universal neural audio codec tailored for low frame rate. It adopts a hierarchical multi-codebook design with semantic-acoustic decoupling by leveraging the audio encoder of the pre-trained understanding model, along with a self-guidance strategy to improve codebook utilization and reconstruction. Compared with the Mimi codec, experiments show that OmniCodec achieves outstanding performance at the same bitrate, delivering superior reconstruction quality while also providing more semantically informative representations that benefit downstream generation tasks. Our model and code will be open-sourced. Our demo page is available.},
+  selected     = {true}
+}
+
+@inproceedings{Dai2026jointlearning,
+  title        = {Joint Learning Global-Local Speaker Classification to Enhance End-to-End Speaker Diarization and Recognition},
+  author       = {Dai, Yuhang and Lin, Haopeng and Qian, Jiale and Yan, Ruiqi and Meng, Hao and Xie, Hanke and Wen, Hanlin and Yin, Shunshun and Tao, Ming and Chen, Xie and Xie, Lei and Wang, Xinsheng},
+  booktitle    = {Interspeech},
+  year         = {2026},
+  time         = {2026-09-12},
+  abbr         = {Interspeech},
+  arxiv        = {2603.25377},
+  abstract     = {Large Audio-Language Models (LALMs) have demonstrated remarkable performance in end-to-end speaker diarization and recognition. However, their speaker discriminability remains limited due to the scarcity of large-scale conversational data and the absence of explicit speaker representation optimization. To address this, we propose GLSC-SDR, a paradigm that jointly trains speaker classification with diarization and recognition. We further introduce a Global-Local Speaker Classification strategy, which uses clustered speakers as global labels and re-encoded intra-cluster speakers as local labels. This hierarchical design enhances fine-grained speaker discrimination while preserving semantic transcription accuracy. Experiments on AliMeeting, AISHELL-4, and AMI-SDM demonstrate that GLSC-SDR achieves competitive or superior performance compared to simulation-based and multi-encoder approaches, without relying on large-scale real conversational data.},
+  selected     = {true}
+}
+
+@inproceedings{Zhang2026unifiedsong,
+  title        = {Towards Unified Song Generation and Singing Voice Conversion with Accompaniment Co-Generation},
+  author       = {Zhang, Ziyu and Qiang, Chunyu and Wang, Xiaopeng and Guo, Yuxin and Yin, Kang and Tian, Wenjie and Hu, Jingbin and Zuo, Tianlun and Guo, Zhao and Ma, Teng and Liang, Yuzhe and Zhang, Chen and Xie, Lei},
+  booktitle    = {Interspeech},
+  year         = {2026},
+  time         = {2026-09-27},
+  abbr         = {Interspeech},
+  arxiv        = {2606.07015},
+  abstract     = {While song generation and singing voice conversion (SVC) have evolved significantly, they have long been developed isolated: the former lacks zero-shot speaker cloning, while the latter overlooks vocal-accompaniment synergy. To bridge this gap, we propose UniSinger, the first end-to-end framework unifying speaker cloning song generation and accompaniment co-generation SVC. Building on the multimodal diffusion transformer, we construct a unified speaker embedding space transferring speaker representation from SVC to song generation, endowing fine-grained cross-task timbre control. To mitigate multi-task optimization conflicts, we design a curriculum learning strategy using task-specific modality masking to guide the model to gradually master the generative mechanisms among semantic content, vocal timbre, and accompaniment. Experiments show state-of-the-art performance on both tasks and realizes complementary benefits, offering new possibilities for intelligent music production.},
+  selected     = {true}
+}
+
+@inproceedings{Hao2026yingmusicsinger,
+  title        = {YingMusic-Singer: Controllable Singing Voice Synthesis with Flexible Lyric Manipulation and Annotation-free Melody Guidance},
+  author       = {Hao, Chunbo and Zheng, Junjie and Ma, Guobin and Jiang, Yuepeng and Chen, Huakang and Tian, Wenjie and Chen, Gongyu and Chen, Zihao and Xie, Lei},
+  booktitle    = {Interspeech},
+  year         = {2026},
+  time         = {2026-09-27},
+  abbr         = {Interspeech},
+  arxiv        = {2603.24589},
+  abstract     = {Regenerating singing voices with altered lyrics while preserving melody consistency remains challenging, as existing methods either offer limited controllability or require laborious manual alignment. We propose YingMusic-Singer-Plus, a fully diffusion-based model enabling melody-controllable singing voice synthesis with flexible lyric manipulation. The model takes three inputs: an optional timbre reference, a melody-providing singing clip, and modified lyrics, without manual alignment. Trained with curriculum learning and Group Relative Policy Optimization, YingMusic-Singer-Plus achieves stronger melody preservation and lyric adherence than Vevo2, the most comparable baseline supporting melody control without manual alignment. We also introduce LyricEditBench, the first benchmark for melody-preserving lyric modification evaluation. The code, weights, benchmark, and demos are publicly available.},
+  selected     = {true}
+}
+
+@inproceedings{Xie2026flashtts,
+  title        = {FlashTTS: Fast Streaming TTS with MTP Acceleration and X-pred Mean Flow Distillation},
+  author       = {Xie, Hanke and Ren, Xiaming and Guo, Dake and You, Ruonan and Li, Wenhao and Hu, Jingbin and Ma, Guobin and Chen, Huakang and Xu, Kejie and Huang, Rui and Tan, Weiguo and Wang, Xianrong and Xie, Lei},
+  booktitle    = {Interspeech},
+  year         = {2026},
+  time         = {2026-09-27},
+  abbr         = {Interspeech},
+  arxiv        = {2606.09141},
+  abstract     = {Recent progress in speech dialogue systems requires Text-to-Speech (TTS) models to be faster and more responsive. Modern speech dialogue systems impose two primary requirements on TTS models: low latency and support for streaming inputs and outputs. However, most existing single-codebook LLM-based TTS methods rely on multi-stage pipelines that lack native streaming capabilities. These systems typically suffer from high end-to-end latency due to slow autoregressive prediction and multi-step flow matching. To address these limitations, we propose FlashTTS, an open-source and low-latency streaming TTS framework. FlashTTS introduces a lagged multi-track architecture that natively processes streaming text and speech inputs, thereby eliminating the need for sentence-level buffering. To accelerate acoustic generation, we integrate parallel Multi-Token Prediction (MTP) with an X-pred mean flow matching decoder. This configuration achieves high-fidelity token-to-mel generation in exactly two function evaluations (2-NFE). By jointly optimizing input processing and decoding efficiency, FlashTTS offers a practical foundation for real-time speech dialogue systems. Experiments show that FlashTTS substantially reduces First-Packet Latency to 325ms compared to robust streaming baselines, all while preserving strong zero-shot voice cloning and cross-lingual intelligibility. Speech samples are available. The model code and checkpoints will be released as open source.},
+  selected     = {true}
+}
+
+@inproceedings{Zhu2026gmapse,
+  title        = {G-MaP-SE: Guided Speech Enhancement via GMM-Based Prior Matching},
+  author       = {Zhu, Yike and Wang, Ziqian and Liu, Zikai and Li, Xingchen and Chen, Zhuangqi and Xia, Xianjun and Huang, Chuanzeng and Xie, Lei},
+  booktitle    = {Interspeech},
+  year         = {2026},
+  time         = {2026-09-27},
+  abbr         = {Interspeech},
+  arxiv        = {2606.08580},
+  abstract     = {Using speaker embeddings as conditioning can strengthen speech enhancement, but most methods either require clean enrollment audio or rely on embeddings extracted from noisy speech, which are fragile under noise and domain shift. We propose G-MaP-SE, a guided enhancement framework that builds a clean-speech embedding prior with a Gaussian Mixture Model (GMM) and refines a noisy conditioning embedding by matching it to this prior. The matched prior embedding is then injected into a time-frequency enhancement backbone via a lightweight gated fusion module. Experiments on VoiceBank+DEMAND and DNS Challenge 2020 datasets show that the proposed prior matching consistently outperforms noisy conditioning and substantially narrows the gap to an oracle clean-conditioning upper bound, while requiring no enrollment audio at inference time. The code, audio samples, and checkpoint are available.},
+  selected     = {true}
+}
+
+@inproceedings{Zhao2026beyondsemantic,
+  title        = {Beyond Semantic Dominance: Cognitive Affective Reasoning and Empathetic Response Alignment in Audio Language Models},
+  author       = {Zhao, Zhixian and Wang, Shuiyuan and Tian, Wenjie and Hu, Jingbin and Zhang, Ziyu and Xie, Lei},
+  booktitle    = {Interspeech},
+  year         = {2026},
+  time         = {2026-09-27},
+  abbr         = {Interspeech},
+  arxiv        = {2606.06940},
+  abstract     = {While Audio Language Models (ALMs) demonstrate strong semantic understanding, they struggle with complex affective interactions. Specifically, textual semantic dominance often overshadows acoustic nuances, and a lack of cognitive depth leads to generic, emotion-agnostic responses. We propose CogAudio-LLM, a novel cognitive affective reasoning framework. To mitigate semantic dominance, we build LIME-440K, a ``lexically-identical, multi-emotion'' dataset designed to facilitate acoustic-semantic decoupling. We introduce EIPS, a 4-step Chain-of-Thought (CoT) mechanism incorporating psychological reasoning. For inference efficiency, multi-stage training explicitly establishes EIPS via supervised fine-tuning, then distills this logic into an implicit generation process. Finally, we design DR-SAPO (Dual-Route Soft Adaptive Policy Optimization) to dynamically balance the logical rigor of the CoT with the empathetic quality of the direct response.},
+  selected     = {true}
+}
+
+@inproceedings{Jiang2026diffrhythm2,
+  title        = {DiffRhythm 2: Efficient and High Fidelity Song Generation via Block Flow Matching},
+  author       = {Jiang, Yuepeng and Chen, Huakang and Ning, Ziqian and Yao, Jixun and Han, Zerui and Wu, Di and Meng, Meng and Luan, Jian and Fu, Zhonghua and Xie, Lei},
+  booktitle    = {Interspeech},
+  year         = {2026},
+  time         = {2026-09-27},
+  abbr         = {Interspeech},
+  arxiv        = {2510.22950},
+  abstract     = {Generating full-length, high-quality songs is challenging, as it requires maintaining long-term coherence both across text and music modalities and within the music modality itself. Existing non-autoregressive (NAR) frameworks, while capable of producing high-quality songs, often struggle with the alignment between lyrics and vocal. Concurrently, catering to diverse musical preferences necessitates reinforcement learning from human feedback (RLHF). However, existing methods often rely on merging multiple models during multi-preference optimization, which results in significant performance degradation. To address these challenges, we introduce DiffRhythm 2, an end-to-end framework designed for high-fidelity, controllable song generation. To tackle the lyric alignment problem, DiffRhythm 2 employs a semi-autoregressive architecture based on block flow matching. This design enables faithful alignment of lyrics to singing vocals without relying on external labels and constraints, all while preserving the high generation quality and efficiency of NAR models. To make this framework computationally tractable for long sequences, we implement a music variational autoencoder (VAE) that achieves a low frame rate of 5 Hz while still enabling high-fidelity audio reconstruction. In addition, to overcome the limitations of multi-preference optimization in RLHF, we propose cross-pair preference optimization. This method effectively mitigates the performance drop typically associated with model merging, allowing for more robust optimization across diverse human preferences. We further enhance musicality and structural coherence by introducing stochastic block representation alignment loss.},
+  selected     = {true}
+}
+
+@inproceedings{Ma2026meanvc2,
+  title        = {MeanVC 2: Robust Low-Latency Streaming Zero-Shot Voice Conversion},
+  author       = {Ma, Guobin and Xia, Yuxuan and Jiang, Yuepeng and Guo, Dake and Xie, Hanke and Hu, Jingbin and Wang, Yanbo and Xie, Lei and Zhu, Pengcheng},
+  booktitle    = {Interspeech},
+  year         = {2026},
+  time         = {2026-09-27},
+  abbr         = {Interspeech},
+  arxiv        = {2606.09050},
+  abstract     = {Streaming zero-shot voice conversion (VC) has become increasingly popular due to its potential for real-time applications. The recently proposed MeanVC achieves lightweight streaming zero-shot VC, but it has several limitations: its chunk-wise autoregressive denoising doubles the effective training sequence length, conversion quality degrades under small-chunk settings, and its timbre encoder directly relies on reference mel-spectrograms, making it sensitive to reference audio quality. To address these limitations we propose MeanVC 2. We introduce future-receptive chunking (FRC), which explicitly schedules past and future receptive fields across diffusion transformer decoder layers and removes clean-chunk teacher forcing. By incorporating bounded future context, FRC enables stable conversion with a 40 ms chunk size. We further introduce a universal timbre token encoder, which constructs a timbre representation from a global speaker embedding and retrieves fine-grained timbre cues via cross-attention, improving robustness to low-quality references and enhancing zero-shot speaker similarity. Experimental results show that MeanVC 2 significantly outperforms MeanVC, while reducing latency from 211 ms to 110 ms. Audio samples are publicly available. The source code will be publicly released.},
+  selected     = {true}
+}
+
+@inproceedings{Sun2026msubench,
+  title        = {MSU-Bench: Towards Speaker-Centric Understanding in Conversational Multi-Speaker Scenarios},
+  author       = {Sun, Zhaokai and Wang, Shuai and Lin, Zhennan and Wang, Chengyou and Guo, Dehui and Cao, Yunang and He, Chunjiang and Zhou, Pan and Xie, Lei},
+  booktitle    = {Interspeech},
+  year         = {2026},
+  time         = {2026-09-27},
+  abbr         = {Interspeech},
+  arxiv        = {2508.08155},
+  abstract     = {Spoken Language Understanding (SLU) has progressed from traditional single-task methods to large audio language model (LALM) solutions. Yet, most existing speech benchmarks focus on single-speaker or isolated tasks, overlooking the challenges posed by multi-speaker conversations that are common in real-world scenarios. We introduce MSU-Bench, a comprehensive benchmark for evaluating multi-speaker conversational understanding with a speaker-centric design. Our hierarchical framework covers four progressive tiers: single-speaker static attribute understanding, single-speaker dynamic attribute understanding, multi-speaker background understanding, and multi-speaker interaction understanding. This structure ensures all tasks are grounded in speaker-centric contexts, from basic perception to complex reasoning across multiple speakers. By evaluating state-of-the-art models on MSU-Bench, we demonstrate that as task complexity increases across the benchmark's tiers, all models exhibit a significant performance decline. We also observe a persistent capability gap between open-source models and closed-source commercial ones, particularly in multi-speaker interaction reasoning. These findings validate the effectiveness of MSU-Bench for assessing and advancing conversational understanding in realistic multi-speaker environments. Demos can be found in the supplementary material.},
+  selected     = {true}
+}
+
+@inproceedings{Zhao2026integrating,
+  title        = {Integrating Fine-Grained Audio-Visual Evidence for Robust Multimodal Emotion Reasoning},
+  author       = {Zhao, Zhixian and Tian, Wenjie and Tian, Xiaohai and Zhang, Jun and Xie, Lei},
+  booktitle    = {ICME},
+  year         = {2026},
+  time         = {2026-07-05},
+  abbr         = {ICME},
+  arxiv        = {2601.18321},
+  abstract     = {Multimodal emotion analysis is shifting from static classification to generative reasoning. Beyond simple label prediction, robust affective reasoning must synthesize fine-grained signals such as facial micro-expressions and prosodic which shifts to decode the latent causality within complex social contexts. However, current Multimodal Large Language Models (MLLMs) face significant limitations in fine-grained perception, primarily due to data scarcity and insufficient cross-modal fusion. As a result, these models often exhibit unimodal dominance which leads to hallucinations in complex multimodal interactions, particularly when visual and acoustic cues are subtle, ambiguous, or even contradictory. To address this, we introduce SABER-LLM, a framework designed for robust multimodal reasoning. First, we construct SABER, a large-scale emotion reasoning dataset comprising 600K video clips, annotated with a novel six-dimensional schema that jointly captures audiovisual cues and causal logic. Second, we propose the structured evidence decomposition paradigm, which enforces a ``perceive-then-reason'' separation between evidence extraction and reasoning to alleviate unimodal dominance. The ability to perceive complex scenes is further reinforced by consistency-aware direct preference optimization, which explicitly encourages alignment among modalities under ambiguous or conflicting perceptual conditions. Experiments on EMER, EmoBench-M, and SABER-Test demonstrate that SABER-LLM significantly outperforms open-source baselines and achieves robustness competitive with closed-source models in decoding complex emotional dynamics. The dataset and model are available.},
+  selected     = {true}
+}
+
+@inproceedings{Hao2026songformer,
+  title        = {SongFormer: Scaling Music Structure Analysis with Heterogeneous Supervision},
+  author       = {Hao, Chunbo and Yuan, Ruibin and Yao, Jixun and Deng, Qixin and Bai, Xinyi and Wang, Yanbo and Xue, Wei and Xie, Lei},
+  booktitle    = {ICME},
+  year         = {2026},
+  time         = {2026-07-06},
+  abbr         = {ICME},
+  arxiv        = {2510.02797},
+  abstract     = {Music structure analysis (MSA) underpins music understanding and controllable generation, yet progress has been limited by small, inconsistent corpora. We present SongFormer, a scalable framework that learns from heterogeneous supervision. SongFormer (i) fuses short- and long-window self-supervised learning representations to capture both fine-grained and long-range dependencies, and (ii) introduces a learned source embedding to enable training with partial, noisy, and schema-mismatched labels. To support scaling and fair evaluation, we release SongFormDB, the largest MSA corpus to date (over 14k songs spanning languages and genres), and SongFormBench, a 300-song expert-verified benchmark. On SongFormBench, SongFormer sets a new state of the art in strict boundary detection (HR.5F) and achieves the highest functional label accuracy, while remaining computationally efficient; it surpasses strong baselines and Gemini 2.5 Pro on these metrics and remains competitive under relaxed tolerance (HR3F). Code, datasets, and model are open-sourced.},
+  selected     = {true}
+}
+
+@inproceedings{Li2026sense,
+  title        = {SenSE: Semantic-Aware High-Fidelity Universal Speech Enhancement},
+  author       = {Li, Xingchen and Xie, Hanke and Wang, Ziqian and Zhang, Zihan and Xiao, Longshuai and Xie, Lei},
+  booktitle    = {ICME},
+  year         = {2026},
+  time         = {2026-07-05},
+  abbr         = {ICME},
+  arxiv        = {2509.24708},
+  abstract     = {Generative Universal Speech Enhancement (USE) methods aim to leverage generative models to improve speech quality under various types of distortions. However, existing generative speech enhancement methods often suffer from semantic inconsistency in the generated outputs. Therefore, we propose SenSE, a novel two-stage generative universal speech enhancement framework, by modeling semantic priors with a language model, the flow matching-based speech enhancement process is guided to generate semantically faithful speech, thereby effectively improving context fidelity. In addition, we introduce a dual-path masked conditioning training strategy that enables flow matching-based enhancement to flexibly integrate multi-source conditioning signals from degraded speech, semantic tokens, and reference speech, thereby improving model flexibility and adaptability. Experimental results demonstrate that SenSE achieves state-of-the-art performance among generative speech enhancement models and exhibits a high performance ceiling, particularly under challenging distortion conditions. Codes and demos are available.},
+  selected     = {true}
+}
+
+
+@inproceedings{Wang2026wenetspeechwu,
+  title        = {WenetSpeech-Wu: Datasets, Benchmarks, and Models for a Unified Chinese Wu Dialect Speech Processing Ecosystem},
+  author       = {Wang, Chengyou and Shao, Mingchen and Hu, Jingbin and Zhu, Zeyu and Xue, Hongfei and Mu, Bingshen and Xu, Xin and Duan, Xingyi and Zhang, Binbin and Zhu, Pengcheng and Ding, Chuang and Zhang, Xiaojun and Bu, Hui and Xie, Lei},
+  booktitle    = {ACL},
+  year         = {2026},
+  time         = {2026-07-02},
+  abbr         = {ACL},
+  arxiv        = {2601.11027},
+  abstract     = {Speech processing for low-resource dialects remains a fundamental challenge in developing inclusive and robust speech technologies. Despite its linguistic significance and large speaker population, the Wu dialect of Chinese has long been hindered by the lack of large-scale speech data, standardized evaluation benchmarks, and publicly available models. In this work, we present WenetSpeech-Wu, the first large-scale, multi-dimensionally annotated open-source speech corpus for the Wu dialect, comprising approximately 8,000 hours of diverse speech data. Building upon this dataset, we introduce WenetSpeech-Wu-Bench, the first standardized and publicly accessible benchmark for systematic evaluation of Wu dialect speech processing, covering automatic speech recognition (ASR), Wu-to-Mandarin translation, speaker attribute prediction, speech emotion recognition, text-to-speech (TTS) synthesis, and instruction-following TTS (instruct TTS). Furthermore, we release a suite of strong open-source models trained on WenetSpeech-Wu, establishing competitive performance across multiple tasks and empirically validating the effectiveness of the proposed dataset. Together, these contributions lay the foundation for a comprehensive Wu dialect speech processing ecosystem, and we open-source proposed datasets, benchmarks, and models to support future research on dialectal speech intelligence.},
+  selected     = {true}
+}
+
 @inproceedings{Mu2026summary,
   title        = {Summary on The Multilingual Conversational Speech Language Model Challenge: Datasets, Tasks, Baselines, and Methods},
   author       = {Mu, Bingshen and Guo, Pengcheng and Sun, Zhaokai and Wang, Shuai and Liu, Hexin and Shao, Mingchen and Xie, Lei and Chng, Eng Siong and Xiao, Longshuai and Feng, Qiangze and Wang, Daliang},
@@ -45,6 +214,7 @@
   year         = {2026},
   time         = {2026-05-03},
   abbr         = {ICASSP},
+  code         = {https://github.com/ASLP-lab/MeanVC},
   demo         = {https://aslp-lab.github.io/MeanVC},
   website      = {https://mp.weixin.qq.com/s/kph2Elxnjo5S0m5TU4VnDQ},
   arxiv        = {2510.08392},
@@ -88,8 +258,7 @@
   abbr         = {ICASSP},
   code         = {https://aslp-lab.github.io/HumDial-Challenge/},
   arxiv        = {2601.05564},
-  abstract     = {Driven by the rapid advancement of Large Language Models (LLMs), particularly Audio-LLMs and Omni-models, spoken dialogue systems have evolved significantly, progressively narrowing the gap between human-machine and human-human interactions. Achieving truly ``human-like'' communication necessitates a dual capability: emotional intelligence to perceive and resonate with users' emotional states, and robust interaction mechanisms to navigate the dynamic, natural flow of conversation, such as real-time turn-taking. Therefore, we launched the first Human-like Spoken Dialogue Systems Challenge (HumDial) at ICASSP 2026 to benchmark these dual capabilities. Anchored by a sizable dataset derived from authentic human conversations, this initiative establishes a fair evaluation platform across two tracks: (1) Emotional Intelligence, targeting long-term emotion understanding and empathetic generation; and (2) Full-Duplex Interaction, systematically evaluating real-time decision-making under `` listening-while-speaking'' conditions. This paper summarizes the dataset, track configurations, and the final results.},
-  selected     = {true}
+  abstract     = {Driven by the rapid advancement of Large Language Models (LLMs), particularly Audio-LLMs and Omni-models, spoken dialogue systems have evolved significantly, progressively narrowing the gap between human-machine and human-human interactions. Achieving truly ``human-like'' communication necessitates a dual capability: emotional intelligence to perceive and resonate with users' emotional states, and robust interaction mechanisms to navigate the dynamic, natural flow of conversation, such as real-time turn-taking. Therefore, we launched the first Human-like Spoken Dialogue Systems Challenge (HumDial) at ICASSP 2026 to benchmark these dual capabilities. Anchored by a sizable dataset derived from authentic human conversations, this initiative establishes a fair evaluation platform across two tracks: (1) Emotional Intelligence, targeting long-term emotion understanding and empathetic generation; and (2) Full-Duplex Interaction, systematically evaluating real-time decision-making under `` listening-while-speaking'' conditions. This paper summarizes the dataset, track configurations, and the final results.}
 }
 
 @inproceedings{Li2026easy,
@@ -103,8 +272,7 @@
   demo         = {https://aslp-lab.github.io/Easy-Turn/},
   website      = {https://mp.weixin.qq.com/s/uScCKkDcplDxDFcq2U87Xw},
   arxiv        = {2509.23938},
-  abstract     = {Full-duplex interaction is crucial for natural human-machine communication, yet remains challenging as it requires robust turn-taking detection to decide when the system should speak, listen, or remain silent. Existing solutions either rely on dedicated turn-taking models, most of which are not open-sourced. The few available ones are limited by their large parameter size or by supporting only a single modality, such as acoustic or linguistic. Alternatively, some approaches finetune LLM backbones to enable full-duplex capability, but this requires large amounts of full-duplex data, which remain scarce in open-source form. To address these issues, we propose Easy Turn, an open-source, modular turn-taking detection model that integrates acoustic and linguistic bimodal information to predict four dialogue turn states: complete, incomplete, backchannel, and wait, accompanied by the release of Easy Turn trainset, a 1,145-hour speech dataset designed for training turn-taking detection models. Compared to existing open-source models like TEN Turn Detection and Smart Turn V2, our model achieves state-of-the-art turn-taking detection accuracy on our open-source Easy Turn testset. The data and model will be made publicly available on GitHub.},
-  selected     = {true}
+  abstract     = {Full-duplex interaction is crucial for natural human-machine communication, yet remains challenging as it requires robust turn-taking detection to decide when the system should speak, listen, or remain silent. Existing solutions either rely on dedicated turn-taking models, most of which are not open-sourced. The few available ones are limited by their large parameter size or by supporting only a single modality, such as acoustic or linguistic. Alternatively, some approaches finetune LLM backbones to enable full-duplex capability, but this requires large amounts of full-duplex data, which remain scarce in open-source form. To address these issues, we propose Easy Turn, an open-source, modular turn-taking detection model that integrates acoustic and linguistic bimodal information to predict four dialogue turn states: complete, incomplete, backchannel, and wait, accompanied by the release of Easy Turn trainset, a 1,145-hour speech dataset designed for training turn-taking detection models. Compared to existing open-source models like TEN Turn Detection and Smart Turn V2, our model achieves state-of-the-art turn-taking detection accuracy on our open-source Easy Turn testset. The data and model will be made publicly available on GitHub.}
 }
 
 @inproceedings{Xia2026kalleautoregressive,
@@ -117,8 +285,7 @@
   code         = {https://github.com/xkx-hub/KALL-E},
   website      = {https://mp.weixin.qq.com/s/7kg0KtKX4dpaOb0MUpyNFw},
   arxiv        = {2412.16846},
-  abstract     = {We introduce KALL-E, a novel autoregressive (AR) language model for text-to-speech (TTS) synthesis that operates by predicting the next distribution of continuous speech frames. Unlike existing methods, KALL-E directly models the continuous speech distribution conditioned on text, eliminating the need for any diffusion-based components. Specifically, we utilize a Flow-VAE to extract a continuous latent speech representation from waveforms, instead of relying on discrete speech tokens. A single AR Transformer is then trained to predict these continuous speech distributions from text, optimizing a Kullback-Leibler divergence loss as its objective. Experimental results demonstrate that KALL-E achieves superior speech synthesis quality and can even adapt to a target speaker from just a single sample. Importantly, KALL-E provides a more direct and effective approach for utilizing continuous speech representations in TTS.},
-  selected     = {true}
+  abstract     = {We introduce KALL-E, a novel autoregressive (AR) language model for text-to-speech (TTS) synthesis that operates by predicting the next distribution of continuous speech frames. Unlike existing methods, KALL-E directly models the continuous speech distribution conditioned on text, eliminating the need for any diffusion-based components. Specifically, we utilize a Flow-VAE to extract a continuous latent speech representation from waveforms, instead of relying on discrete speech tokens. A single AR Transformer is then trained to predict these continuous speech distributions from text, optimizing a Kullback-Leibler divergence loss as its objective. Experimental results demonstrate that KALL-E achieves superior speech synthesis quality and can even adapt to a target speaker from just a single sample. Importantly, KALL-E provides a more direct and effective approach for utilizing continuous speech representations in TTS.}
 }
 
 @inproceedings{Mu2026hearing,
@@ -130,8 +297,7 @@
   abbr         = {AAAI},
   website      = {https://mp.weixin.qq.com/s/si7fXvP6T74akZ9QuR_1Xg},
   arxiv        = {2508.01166},
-  abstract     = {Automatic Speech Recognition (ASR) aims to convert human speech content into corresponding text. In conversational scenarios, effectively utilizing context can enhance its accuracy. Large Language Models' (LLMs) exceptional long-context understanding and reasoning abilities enable LLM-based ASR (LLM-ASR) to leverage historical context for recognizing conversational speech, which has a high degree of contextual relevance. However, existing conversational LLM-ASR methods use a fixed number of preceding utterances or the entire conversation history as context, resulting in significant ASR confusion and computational costs due to massive irrelevant and redundant information. This paper proposes a multi-modal retrieval-and-selection method named MARS that augments conversational LLM-ASR by enabling it to retrieve and select the most relevant acoustic and textual historical context for the current utterance. Specifically, multi-modal retrieval obtains a set of candidate historical contexts, each exhibiting high acoustic or textual similarity to the current utterance. Multi-modal selection calculates the acoustic and textual similarities for each retrieved candidate historical context and, by employing our proposed near-ideal ranking method to consider both similarities, selects the best historical context. Evaluations on the Interspeech 2025 Multilingual Conversational Speech Language Model Challenge dataset show that the LLM-ASR, when trained on only 1.5K hours of data and equipped with the MARS, outperforms the state-of-the-art top-ranking system trained on 179K hours of data.},
-  selected     = {true}
+  abstract     = {Automatic Speech Recognition (ASR) aims to convert human speech content into corresponding text. In conversational scenarios, effectively utilizing context can enhance its accuracy. Large Language Models' (LLMs) exceptional long-context understanding and reasoning abilities enable LLM-based ASR (LLM-ASR) to leverage historical context for recognizing conversational speech, which has a high degree of contextual relevance. However, existing conversational LLM-ASR methods use a fixed number of preceding utterances or the entire conversation history as context, resulting in significant ASR confusion and computational costs due to massive irrelevant and redundant information. This paper proposes a multi-modal retrieval-and-selection method named MARS that augments conversational LLM-ASR by enabling it to retrieve and select the most relevant acoustic and textual historical context for the current utterance. Specifically, multi-modal retrieval obtains a set of candidate historical contexts, each exhibiting high acoustic or textual similarity to the current utterance. Multi-modal selection calculates the acoustic and textual similarities for each retrieved candidate historical context and, by employing our proposed near-ideal ranking method to consider both similarities, selects the best historical context. Evaluations on the Interspeech 2025 Multilingual Conversational Speech Language Model Challenge dataset show that the LLM-ASR, when trained on only 1.5K hours of data and equipped with the MARS, outperforms the state-of-the-art top-ranking system trained on 179K hours of data.}
 }
 
 @inproceedings{Li2026wenetspeechyue,
@@ -144,8 +310,7 @@
   code         = {https://github.com/ASLP-lab/WenetSpeech-Yue},
   website      = {https://mp.weixin.qq.com/s/4ruElajxLcCWOCV3mBrvYA},
   arxiv        = {2509.03959},
-  abstract     = {The development of speech understanding and generation has been significantly accelerated by the availability of large-scale, high-quality speech datasets. Among these, ASR and TTS are regarded as the most established and fundamental tasks. However, for Cantonese (Yue Chinese), spoken by approximately 84.9 million native speakers worldwide, limited annotated resources have hindered progress and resulted in suboptimal ASR and TTS performance. To address this challenge, we propose WenetSpeech-Pipe, an integrated pipeline for building large-scale speech corpus with multi-dimensional annotation tailored for speech understanding and generation. It comprises six modules: Audio Collection, Speaker Attributes Annotation, Speech Quality Annotation, Automatic Speech Recognition, Text Postprocessing and Recognizer Output Voting, enabling rich and high-quality annotations. Based on this pipeline, we release WenetSpeech-Yue, the first large-scale Cantonese speech corpus with multi-dimensional annotation for ASR and TTS, covering 21,800 hours across 10 domains with annotations including ASR transcription, text confidence, speaker identity, age, gender, speech quality scores, among other annotations. We also release WSYue-eval, a comprehensive Cantonese benchmark with two components: WSYue-ASR-eval, a manually annotated set for evaluating ASR on short and long utterances, code-switching, and diverse acoustic conditions, and WSYue-TTS-eval, with base and coverage subsets for standard and generalization testing. Experimental results show that models trained on WenetSpeech-Yue achieve competitive results against state-of-the-art (SOTA) Cantonese ASR and TTS systems, including commercial and LLM-based models, highlighting the value of our dataset and pipeline.},
-  selected     = {true}
+  abstract     = {The development of speech understanding and generation has been significantly accelerated by the availability of large-scale, high-quality speech datasets. Among these, ASR and TTS are regarded as the most established and fundamental tasks. However, for Cantonese (Yue Chinese), spoken by approximately 84.9 million native speakers worldwide, limited annotated resources have hindered progress and resulted in suboptimal ASR and TTS performance. To address this challenge, we propose WenetSpeech-Pipe, an integrated pipeline for building large-scale speech corpus with multi-dimensional annotation tailored for speech understanding and generation. It comprises six modules: Audio Collection, Speaker Attributes Annotation, Speech Quality Annotation, Automatic Speech Recognition, Text Postprocessing and Recognizer Output Voting, enabling rich and high-quality annotations. Based on this pipeline, we release WenetSpeech-Yue, the first large-scale Cantonese speech corpus with multi-dimensional annotation for ASR and TTS, covering 21,800 hours across 10 domains with annotations including ASR transcription, text confidence, speaker identity, age, gender, speech quality scores, among other annotations. We also release WSYue-eval, a comprehensive Cantonese benchmark with two components: WSYue-ASR-eval, a manually annotated set for evaluating ASR on short and long utterances, code-switching, and diverse acoustic conditions, and WSYue-TTS-eval, with base and coverage subsets for standard and generalization testing. Experimental results show that models trained on WenetSpeech-Yue achieve competitive results against state-of-the-art (SOTA) Cantonese ASR and TTS systems, including commercial and LLM-based models, highlighting the value of our dataset and pipeline.}
 }
 
 @inproceedings{Mu2026llmforcedaligner,
@@ -156,8 +321,7 @@
   time         = {2026-01-01},
   abbr         = {ACL},
   arxiv        = {2601.18220},
-  abstract     = {Forced alignment (FA) predicts start and end timestamps for words or characters in speech, but existing methods are language-specific and prone to cumulative temporal shifts. The multilingual speech understanding and long-sequence processing abilities of speech large language models (SLLMs) make them promising for FA in multilingual, crosslingual, and long-form speech settings. However, directly applying the next-token prediction paradigm of SLLMs to FA results in hallucinations and slow inference. To bridge the gap, we propose LLM-ForcedAligner, reformulating FA as a slot-filling paradigm: timestamps are treated as discrete indices, and special timestamp tokens are inserted as slots into the transcript. Conditioned on the speech embeddings and the transcript with slots, the SLLM directly predicts the time indices at slots. During training, causal attention masking with non-shifted input and label sequences allows each slot to predict its own timestamp index based on itself and preceding context, with loss computed only at slot positions. Dynamic slot insertion enables FA at arbitrary positions. Moreover, non-autoregressive inference is supported, avoiding hallucinations and improving speed. Experiments across multilingual, crosslingual, and long-form speech scenarios show that LLM-ForcedAligner achieves a 69%~78% relative reduction in accumulated averaging shift compared with prior methods. Checkpoint and inference code are available at https://github.com/QwenLM/Qwen3-ASR.},
-  selected     = {true}
+  abstract     = {Forced alignment (FA) predicts start and end timestamps for words or characters in speech, but existing methods are language-specific and prone to cumulative temporal shifts. The multilingual speech understanding and long-sequence processing abilities of speech large language models (SLLMs) make them promising for FA in multilingual, crosslingual, and long-form speech settings. However, directly applying the next-token prediction paradigm of SLLMs to FA results in hallucinations and slow inference. To bridge the gap, we propose LLM-ForcedAligner, reformulating FA as a slot-filling paradigm: timestamps are treated as discrete indices, and special timestamp tokens are inserted as slots into the transcript. Conditioned on the speech embeddings and the transcript with slots, the SLLM directly predicts the time indices at slots. During training, causal attention masking with non-shifted input and label sequences allows each slot to predict its own timestamp index based on itself and preceding context, with loss computed only at slot positions. Dynamic slot insertion enables FA at arbitrary positions. Moreover, non-autoregressive inference is supported, avoiding hallucinations and improving speed. Experiments across multilingual, crosslingual, and long-form speech scenarios show that LLM-ForcedAligner achieves a 69%~78% relative reduction in accumulated averaging shift compared with prior methods. Checkpoint and inference code are available at https://github.com/QwenLM/Qwen3-ASR.}
 }
 
 @article{Zhao2025steering,
@@ -169,8 +333,7 @@
   abbr         = {TASLP},
   website      = {https://mp.weixin.qq.com/s/voF5aNcdqrUtImiudZ505w},
   arxiv        = {2502.18186},
-  abstract     = {Large-scale audio language models (ALMs), such as Qwen2-Audio, are capable of comprehending diverse audio signal, performing audio analysis and generating textual responses. However, in speech emotion recognition (SER), ALMs often suffer from hallucinations, resulting in misclassifications or irrelevant outputs. To address these challenges, we propose C$^2$SER, a novel ALM designed to enhance the stability and accuracy of SER through Contextual perception and Chain of Thought (CoT). C$^2$SER integrates the Whisper encoder for semantic perception and Emotion2Vec-S for acoustic perception, where Emotion2Vec-S extends Emotion2Vec with semi-supervised learning to enhance emotional discrimination. Additionally, C$^2$SER employs a CoT approach, processing SER in a step-by-step manner while leveraging speech content and speaking styles to improve recognition. To further enhance stability, C$^2$SER introduces self-distillation from explicit CoT to implicit CoT, mitigating error accumulation and boosting recognition accuracy. Extensive experiments show that C$^2$SER outperforms existing popular ALMs, such as Qwen2-Audio and SECap, delivering more stable and precise emotion recognition. We release the training code, checkpoints, and test sets to facilitate further research.},
-  selected     = {true}
+  abstract     = {Large-scale audio language models (ALMs), such as Qwen2-Audio, are capable of comprehending diverse audio signal, performing audio analysis and generating textual responses. However, in speech emotion recognition (SER), ALMs often suffer from hallucinations, resulting in misclassifications or irrelevant outputs. To address these challenges, we propose C$^2$SER, a novel ALM designed to enhance the stability and accuracy of SER through Contextual perception and Chain of Thought (CoT). C$^2$SER integrates the Whisper encoder for semantic perception and Emotion2Vec-S for acoustic perception, where Emotion2Vec-S extends Emotion2Vec with semi-supervised learning to enhance emotional discrimination. Additionally, C$^2$SER employs a CoT approach, processing SER in a step-by-step manner while leveraging speech content and speaking styles to improve recognition. To further enhance stability, C$^2$SER introduces self-distillation from explicit CoT to implicit CoT, mitigating error accumulation and boosting recognition accuracy. Extensive experiments show that C$^2$SER outperforms existing popular ALMs, such as Qwen2-Audio and SECap, delivering more stable and precise emotion recognition. We release the training code, checkpoints, and test sets to facilitate further research.}
 }
 
 @article{Yao2025fpo,
@@ -182,8 +345,7 @@
   abbr         = {TASLP},
   website      = {https://mp.weixin.qq.com/s/Oi0WNr7gys8d8CFVQRcPgw},
   arxiv        = {2502.02950},
-  abstract     = {Integrating human feedback to align text-to-speech (TTS) system outputs with human preferences has proven to be an effective approach for enhancing the robustness of language model-based TTS systems. Current approaches primarily focus on using preference data annotated at the utterance level. However, frequent issues that affect the listening experience often only arise in specific segments of audio samples, while other segments are well-generated. In this study, we propose a fine-grained preference optimization approach (FPO) to enhance the robustness of TTS systems. FPO focuses on addressing localized issues in generated samples rather than uniformly optimizing the entire utterance. Specifically, we first analyze the types of issues in generated samples, categorize them into two groups, and propose a selective training loss strategy to optimize preferences based on fine-grained labels for each issue type. Experimental results show that FPO enhances the robustness of zero-shot TTS systems by effectively addressing local issues, significantly reducing the bad case ratio, and improving intelligibility. Furthermore, FPO exhibits superior data efficiency compared with baseline systems, achieving similar performance with fewer training samples.},
-  selected     = {true}
+  abstract     = {Integrating human feedback to align text-to-speech (TTS) system outputs with human preferences has proven to be an effective approach for enhancing the robustness of language model-based TTS systems. Current approaches primarily focus on using preference data annotated at the utterance level. However, frequent issues that affect the listening experience often only arise in specific segments of audio samples, while other segments are well-generated. In this study, we propose a fine-grained preference optimization approach (FPO) to enhance the robustness of TTS systems. FPO focuses on addressing localized issues in generated samples rather than uniformly optimizing the entire utterance. Specifically, we first analyze the types of issues in generated samples, categorize them into two groups, and propose a selective training loss strategy to optimize preferences based on fine-grained labels for each issue type. Experimental results show that FPO enhances the robustness of zero-shot TTS systems by effectively addressing local issues, significantly reducing the bad case ratio, and improving intelligibility. Furthermore, FPO exhibits superior data efficiency compared with baseline systems, achieving similar performance with fewer training samples.}
 }
 
 @inproceedings{Li2025echofree,
@@ -196,8 +358,7 @@
   demo         = {https://echofree2025.github.io/EchoFree-demo/},
   website      = {https://mp.weixin.qq.com/s/GHLHlAkHsLUpJfV7gIyTGA},
   arxiv        = {2508.06271},
-  abstract     = {In recent years, neural networks (NNs) have been widely applied in acoustic echo cancellation (AEC). However, existing approaches struggle to meet real-world low-latency and computational requirements while maintaining performance. To address this challenge, we propose EchoFree, an ultra lightweight neural AEC framework that combines linear filtering with a neural post filter. Specifically, we design a neural post-filter operating on Bark-scale spectral features. Furthermore, we introduce a two-stage optimization strategy utilizing self-supervised learning (SSL) models to improve model performance. We evaluate our method on the blind test set of the ICASSP 2023 AEC Challenge. The results demonstrate that our model, with only 278K parameters and 30 MMACs computational complexity, outperforms existing low-complexity AEC models and achieves performance comparable to that of state-of-the-art lightweight model DeepVQE-S. The audio examples are available.},
-  selected     = {true}
+  abstract     = {In recent years, neural networks (NNs) have been widely applied in acoustic echo cancellation (AEC). However, existing approaches struggle to meet real-world low-latency and computational requirements while maintaining performance. To address this challenge, we propose EchoFree, an ultra lightweight neural AEC framework that combines linear filtering with a neural post filter. Specifically, we design a neural post-filter operating on Bark-scale spectral features. Furthermore, we introduce a two-stage optimization strategy utilizing self-supervised learning (SSL) models to improve model performance. We evaluate our method on the blind test set of the ICASSP 2023 AEC Challenge. The results demonstrate that our model, with only 278K parameters and 30 MMACs computational complexity, outperforms existing low-complexity AEC models and achieves performance comparable to that of state-of-the-art lightweight model DeepVQE-S. The audio examples are available.}
 }
 
 @inproceedings{Zuo2025xemorag,
@@ -210,8 +371,7 @@
   demo         = {https://tlzuo-lesley.github.io/Demo-page/},
   website      = {https://mp.weixin.qq.com/s/--LOFrsiyF_PxVzMoLDkJw},
   arxiv        = {2508.07302},
-  abstract     = {Zero-shot emotion transfer in cross-lingual speech synthesis refers to generating speech in a target language, where the emotion is expressed based on reference speech from a different source language. However, this task remains challenging due to the scarcity of parallel multilingual emotional corpora, the presence of foreign accent artifacts, and the difficulty of separating emotion from language-specific prosodic features. In this paper, we propose XEmoRAG, a novel framework to enable zero-shot emotion transfer from Chinese to Thai using a large language model (LLM)-based model, without relying on parallel emotional data. XEmoRAG extracts language-agnostic emotional embeddings from Chinese speech and retrieves emotionally matched Thai utterances from a curated emotional database, enabling controllable emotion transfer without explicit emotion labels. Additionally, a flow-matching alignment module minimizes pitch and duration mismatches, ensuring natural prosody. It also blends Chinese timbre into the Thai synthesis, enhancing rhythmic accuracy and emotional expression, while preserving speaker characteristics and emotional consistency. Experimental results show that XEmoRAG synthesizes expressive and natural Thai speech using only Chinese reference audio, without requiring explicit emotion labels. These results highlight XEmoRAG's capability to achieve flexible and low-resource emotional transfer across languages. Our demo is available at https://tlzuo-lesley.github.io/Demo-page/ .},
-  selected     = {true}
+  abstract     = {Zero-shot emotion transfer in cross-lingual speech synthesis refers to generating speech in a target language, where the emotion is expressed based on reference speech from a different source language. However, this task remains challenging due to the scarcity of parallel multilingual emotional corpora, the presence of foreign accent artifacts, and the difficulty of separating emotion from language-specific prosodic features. In this paper, we propose XEmoRAG, a novel framework to enable zero-shot emotion transfer from Chinese to Thai using a large language model (LLM)-based model, without relying on parallel emotional data. XEmoRAG extracts language-agnostic emotional embeddings from Chinese speech and retrieves emotionally matched Thai utterances from a curated emotional database, enabling controllable emotion transfer without explicit emotion labels. Additionally, a flow-matching alignment module minimizes pitch and duration mismatches, ensuring natural prosody. It also blends Chinese timbre into the Thai synthesis, enhancing rhythmic accuracy and emotional expression, while preserving speaker characteristics and emotional consistency. Experimental results show that XEmoRAG synthesizes expressive and natural Thai speech using only Chinese reference audio, without requiring explicit emotion labels. These results highlight XEmoRAG's capability to achieve flexible and low-resource emotional transfer across languages. Our demo is available at https://tlzuo-lesley.github.io/Demo-page/ .}
 }
 
 @inproceedings{Tian2025llasa,
@@ -224,8 +384,7 @@
   code         = {https://github.com/ASLP-lab/LLaSA},
   website      = {https://mp.weixin.qq.com/s/ePNfZQx5-tDzAYF8pGfQ7w},
   arxiv        = {2508.06262},
-  abstract     = {Recent progress in text-to-speech (TTS) has achieved impressive naturalness and flexibility, especially with the development of large language model (LLM)-based approaches. However, existing autoregressive (AR) structures and large-scale models, such as Llasa, still face significant challenges in inference latency and streaming synthesis. To deal with the limitations, we introduce Llasa+, an accelerated and streaming TTS model built on Llasa. Specifically, to accelerate the generation process, we introduce two plug-and-play Multi-Token Prediction (MTP) modules following the frozen backbone. These modules allow the model to predict multiple tokens in one AR step. Additionally, to mitigate potential error propagation caused by inaccurate MTP, we design a novel verification algorithm that leverages the frozen backbone to validate the generated tokens, thus allowing Llasa+ to achieve speedup without sacrificing generation quality. Furthermore, we design a causal decoder that enables streaming speech reconstruction from tokens. Extensive experiments show that Llasa+ achieves a 1.48X speedup without sacrificing generation quality, despite being trained only on LibriTTS. Moreover, the MTP-and-verification framework can be applied to accelerate any LLM-based model. All codes and models are publicly available at https://github.com/ASLP-lab/LLaSA_Plus.},
-  selected     = {true}
+  abstract     = {Recent progress in text-to-speech (TTS) has achieved impressive naturalness and flexibility, especially with the development of large language model (LLM)-based approaches. However, existing autoregressive (AR) structures and large-scale models, such as Llasa, still face significant challenges in inference latency and streaming synthesis. To deal with the limitations, we introduce Llasa+, an accelerated and streaming TTS model built on Llasa. Specifically, to accelerate the generation process, we introduce two plug-and-play Multi-Token Prediction (MTP) modules following the frozen backbone. These modules allow the model to predict multiple tokens in one AR step. Additionally, to mitigate potential error propagation caused by inaccurate MTP, we design a novel verification algorithm that leverages the frozen backbone to validate the generated tokens, thus allowing Llasa+ to achieve speedup without sacrificing generation quality. Furthermore, we design a causal decoder that enables streaming speech reconstruction from tokens. Extensive experiments show that Llasa+ achieves a 1.48X speedup without sacrificing generation quality, despite being trained only on LibriTTS. Moreover, the MTP-and-verification framework can be applied to accelerate any LLM-based model. All codes and models are publicly available at https://github.com/ASLP-lab/LLaSA_Plus.}
 }
 
 @inproceedings{Mu2025efficient,
@@ -237,8 +396,7 @@
   abbr         = {ASRU},
   website      = {https://mp.weixin.qq.com/s/HvSCJWlKRzODGS_dtwIuKQ},
   arxiv        = {2508.04096},
-  abstract     = {Large language model (LLM)-based automatic speech recognition (ASR) achieves strong performance but often incurs high computational costs. This work investigates how to obtain the best LLM-ASR performance efficiently. Through comprehensive and controlled experiments, we find that pretraining the speech encoder before integrating it with the LLM leads to significantly better scaling efficiency than the standard practice of joint post-training of LLM-ASR. Based on this insight, we propose a new multi-stage LLM-ASR training strategy, EFIN: Encoder First Integration. Among all training strategies evaluated, EFIN consistently delivers better performance (relative to 21.1% CERR) with significantly lower computation budgets (49.9% FLOPs). Furthermore, we derive a scaling law that approximates ASR error rates as a computation function, providing practical guidance for LLM-ASR scaling.},
-  selected     = {true}
+  abstract     = {Large language model (LLM)-based automatic speech recognition (ASR) achieves strong performance but often incurs high computational costs. This work investigates how to obtain the best LLM-ASR performance efficiently. Through comprehensive and controlled experiments, we find that pretraining the speech encoder before integrating it with the LLM leads to significantly better scaling efficiency than the standard practice of joint post-training of LLM-ASR. Based on this insight, we propose a new multi-stage LLM-ASR training strategy, EFIN: Encoder First Integration. Among all training strategies evaluated, EFIN consistently delivers better performance (relative to 21.1% CERR) with significantly lower computation budgets (49.9% FLOPs). Furthermore, we derive a scaling law that approximates ASR error rates as a computation function, providing practical guidance for LLM-ASR scaling.}
 }
 
 @inproceedings{Chen2025diffrhythm,
@@ -251,8 +409,7 @@
   demo         = {https://longwaytog0.github.io/DiffRhythmPlus/},
   website      = {https://mp.weixin.qq.com/s/QjxIrkGwxL72eIDRut7FEg},
   arxiv        = {2507.12890},
-  abstract     = {Songs, as a central form of musical art, exemplify the richness of human intelligence and creativity. While recent advances in generative modeling have enabled notable progress in long-form song generation, current systems for full-length song synthesis still face major challenges, including data imbalance, insufficient controllability, and inconsistent musical quality. DiffRhythm, a pioneering diffusion-based model, advanced the field by generating full-length songs with expressive vocals and accompaniment. However, its performance was constrained by an unbalanced model training dataset and limited controllability over musical style, resulting in noticeable quality disparities and restricted creative flexibility. To address these limitations, we propose DiffRhythm+, an enhanced diffusion-based framework for controllable and flexible full-length song generation. DiffRhythm+ leverages a substantially expanded and balanced training dataset to mitigate issues such as repetition and omission of lyrics, while also fostering the emergence of richer musical skills and expressiveness. The framework introduces a multi-modal style conditioning strategy, enabling users to precisely specify musical styles through both descriptive text and reference audio, thereby significantly enhancing creative control and diversity. We further introduce direct performance optimization aligned with user preferences, guiding the model toward consistently preferred outputs across evaluation metrics. Extensive experiments demonstrate that DiffRhythm+ achieves significant improvements in naturalness, arrangement complexity, and listener satisfaction over previous systems.},
-  selected     = {true}
+  abstract     = {Songs, as a central form of musical art, exemplify the richness of human intelligence and creativity. While recent advances in generative modeling have enabled notable progress in long-form song generation, current systems for full-length song synthesis still face major challenges, including data imbalance, insufficient controllability, and inconsistent musical quality. DiffRhythm, a pioneering diffusion-based model, advanced the field by generating full-length songs with expressive vocals and accompaniment. However, its performance was constrained by an unbalanced model training dataset and limited controllability over musical style, resulting in noticeable quality disparities and restricted creative flexibility. To address these limitations, we propose DiffRhythm+, an enhanced diffusion-based framework for controllable and flexible full-length song generation. DiffRhythm+ leverages a substantially expanded and balanced training dataset to mitigate issues such as repetition and omission of lyrics, while also fostering the emergence of richer musical skills and expressiveness. The framework introduces a multi-modal style conditioning strategy, enabling users to precisely specify musical styles through both descriptive text and reference audio, thereby significantly enhancing creative control and diversity. We further introduce direct performance optimization aligned with user preferences, guiding the model toward consistently preferred outputs across evaluation metrics. Extensive experiments demonstrate that DiffRhythm+ achieves significant improvements in naturalness, arrangement complexity, and listener satisfaction over previous systems.}
 }
 
 @inproceedings{Jiang2025refvc,
@@ -265,8 +422,7 @@
   demo         = {https://rxy-j.github.io/asru2025/},
   website      = {https://mp.weixin.qq.com/s/0FXXpiRI4lOhXH80aFzm6w},
   arxiv        = {2508.04996},
-  abstract     = {In real-world voice conversion applications, environmental noise in source speech and user demands for expressive output pose critical challenges. Traditional ASR-based methods ensure noise robustness but suppress prosody richness, while SSL-based models improve expressiveness but suffer from timbre leakage and noise sensitivity. This paper proposes REF-VC, a noise-robust expressive voice conversion system. Key innovations include: (1) A random erasing strategy to mitigate the information redundancy inherent in SSL features, enhancing noise robustness and expressiveness; (2) Implicit alignment inspired by E2TTS to suppress non-essential feature reconstruction; (3) Integration of Shortcut Models to accelerate flow matching inference, significantly reducing to 4 steps. Experimental results demonstrate that REF-VC outperforms baselines such as Seed-VC in zero-shot scenarios on the noisy set, while also performing comparably to Seed-VC on the clean set. In addition, REF-VC can be compatible with singing voice conversion within one model.},
-  selected     = {true}
+  abstract     = {In real-world voice conversion applications, environmental noise in source speech and user demands for expressive output pose critical challenges. Traditional ASR-based methods ensure noise robustness but suppress prosody richness, while SSL-based models improve expressiveness but suffer from timbre leakage and noise sensitivity. This paper proposes REF-VC, a noise-robust expressive voice conversion system. Key innovations include: (1) A random erasing strategy to mitigate the information redundancy inherent in SSL features, enhancing noise robustness and expressiveness; (2) Implicit alignment inspired by E2TTS to suppress non-essential feature reconstruction; (3) Integration of Shortcut Models to accelerate flow matching inference, significantly reducing to 4 steps. Experimental results demonstrate that REF-VC outperforms baselines such as Seed-VC in zero-shot scenarios on the noisy set, while also performing comparably to Seed-VC on the clean set. In addition, REF-VC can be compatible with singing voice conversion within one model.}
 }
 
 @inproceedings{Xue2025enhancing,
@@ -1979,6 +2135,7 @@
   journal      = {Nerual Networks},
   year         = {2022},
   time         = {2022-06-01},
+  pdf          = {https://www.sciencedirect.com/science/article/pii/S0893608022000739?via%3Dihub},
   abbr         = {Neural Networks},
 }
 
@@ -3416,6 +3573,7 @@
   time         = {2017-08-20},
   abbr         = {Interspeech},
   arxiv        = {1703.05880},
+  abstract     = {Deep learning models (DLMs) are state-of-the-art techniques in speech recognition. However, training good DLMs can be time consuming especially for production-size models and corpora. Although several parallel training algorithms have been proposed to improve training efficiency, there is no clear guidance on which one to choose for the task in hand due to lack of systematic and fair comparison among them. In this paper we aim at filling this gap by comparing four popular parallel training algorithms in speech recognition, namely asynchronous stochastic gradient descent (ASGD), blockwise model-update filtering (BMUF), bulk synchronous parallel (BSP) and elastic averaging stochastic gradient descent (EASGD), on 1000-hour LibriSpeech corpora using feed-forward deep neural networks (DNNs) and convolutional, long short-term memory, DNNs (CLDNNs). Based on our experiments, we recommend using BMUF as the top choice to train acoustic models since it is most stable, scales well with number of GPUs, can achieve reproducible results, and in many cases even outperforms single-GPU SGD. ASGD can be used as a substitute in some cases.},
 }
 
 @inproceedings{Wu2017denoising,
