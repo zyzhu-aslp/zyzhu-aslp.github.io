@@ -25,7 +25,7 @@ social: true
 
 他长期致力于建设面向学术界的开源工具与数据资源，指导了被广泛使用的 [WeNet](https://github.com/wenet-e2e/wenet) 语音识别工具包和 [WenetSpeech](https://github.com/wenet-e2e/WenetSpeech) 开源语音数据系列等项目。
 
-他曾获得多项荣誉，包括教育部新世纪优秀人才支持计划、陕西省青年科技新星、全球前2%顶尖科学家（斯坦福大学 & Elsevier）以及华为云 AI 名师等。已发表论文 400 余篇，[Google Scholar](https://scholar.google.com/citations?user=Qddov9wAAAAJ) 引用超过 18000 次，H-index 为 63。曾获多项国际会议最佳论文奖及国际评测冠军，诸多研究成果已实现产业落地。现任 ISCA SIG-CSLP 副主席，并担任 IEEE/ACM TASLP 与 IEEE SPL 的高级领域编委（SAE）。
+他曾获得多项荣誉，包括教育部新世纪优秀人才支持计划、陕西省青年科技新星、全球前2%顶尖科学家（斯坦福大学 & Elsevier）以及华为云 AI 名师等。已发表论文 400 余篇，[Google Scholar](https://scholar.google.com/citations?user=Qddov9wAAAAJ) 引用超过 20000 次，H-index 为 63。曾获多项国际会议最佳论文奖及国际评测冠军，诸多研究成果已实现产业落地。现任 ISCA SIG-CSLP 副主席，并担任 IEEE/ACM TASLP 与 IEEE SPL 的高级领域编委（SAE）。
 
 <!-- ═══════════ 联系方式 ═══════════ -->
 
@@ -48,7 +48,7 @@ social: true
 
 他曾获得多项荣誉，包括教育部新世纪优秀人才支持计划、陕西省青年科技新星、全球前2%顶尖科学家（斯坦福大学 & Elsevier）以及华为云 AI 名师等。
 
-谢磊教授已在音频、语音与语言处理领域发表400余篇同行评议论文，Google Scholar 引用超过 18000 次，H-index 为 63。其研究成果曾多次获得国际学术会议最佳论文奖，并在多项国际评测竞赛中取得冠军。诸多研究成果也已成功应用于产业实践。
+谢磊教授已在音频、语音与语言处理领域发表400余篇同行评议论文，Google Scholar 引用超过 20000 次，H-index 为 63。其研究成果曾多次获得国际学术会议最佳论文奖，并在多项国际评测竞赛中取得冠军。诸多研究成果也已成功应用于产业实践。
 
 在 ASLP@NPU，他指导着一批背景多元的学生和研究人员，围绕语音、音频与语言智能开展前沿研究。他也长期活跃于国际学术共同体，担任多个学术组织和期刊的重要职务。目前，他担任国际语音通信协会 ISCA 中文口语语言处理兴趣组（SIG-CSLP）副主席，以及 IEEE/ACM Transactions on Audio, Speech, and Language Processing 和 IEEE Signal Processing Letters 的高级领域编委（Senior Area Editor）。
 
@@ -62,27 +62,27 @@ social: true
 ### 高光成果
 
 <div class="row mt-3">
-  <!-- 卡片 1 -->
+  <!-- 卡片 1：MeanVC2 开源推文 -->
   <div class="col-sm-6 mt-3">
-    <div class="card h-100">
+    <div class="card h-100" style="display:flex; flex-direction:column;">
       <div style="height:200px; display:flex; align-items:center; justify-content:center; background:var(--global-bg-color, #f8f9fa);">
-        <img src="/assets/img/highlights/soulx_transcriber.png" alt="SoulX-Transcriber" style="max-width:100%; max-height:100%; object-fit:contain;">
+        <img src="/assets/img/highlights/meanvc2.png" alt="MeanVC2" style="max-width:100%; max-height:100%; object-fit:contain;">
       </div>
-      <div class="card-body">
-        <h5 class="card-title" style="font-size:1.2rem; line-height:1.6;">开源！SoulX-Transcriber——面向复杂对话的端到端多说话人语音转录框架来啦！</h5>
-        <a href="https://mp.weixin.qq.com/s/8m6hSPRwQvdusDLD_KfNqQ" class="btn btn-sm btn-outline-primary" style="font-size:0.8rem" target="_blank">详细了解 ></a>
+      <div class="card-body" style="display:flex; flex-direction:column; flex:1;">
+        <h5 class="card-title" style="font-size:1.2rem; line-height:1.6;">Interspeech2026 | MeanVC 2：面向低延迟与鲁棒性的流式零样本语音转换</h5>
+        <a href="https://mp.weixin.qq.com/s/htNqPmMNNBhORBiHAiqGHw" class="btn btn-sm btn-outline-primary" style="font-size:0.8rem; margin-top:auto; align-self:flex-start;" target="_blank">详细了解 ></a>
       </div>
     </div>
   </div>
   <!-- 卡片 2：SmoothConv & DuplexConv 全双工语音数据集开源推文 -->
   <div class="col-sm-6 mt-3">
-    <div class="card h-100">
+    <div class="card h-100" style="display:flex; flex-direction:column;">
       <div style="height:200px; display:flex; align-items:center; justify-content:center; background:var(--global-bg-color, #f8f9fa);">
         <img src="/assets/img/highlights/duplex_dataset.png" alt="SmoothConv & DuplexConv" style="max-width:100%; max-height:100%; object-fit:contain;">
       </div>
-      <div class="card-body">
+      <div class="card-body" style="display:flex; flex-direction:column; flex:1;">
         <h5 class="card-title" style="font-size:1.2rem; line-height:1.6;">SmoothConv & DuplexConv：面向对话式 AI 的大规模中文全双工语音数据集开源！</h5>
-        <a href="https://mp.weixin.qq.com/s/qSEY3YuvaH3oAvlhFBPCww" class="btn btn-sm btn-outline-primary" style="font-size:0.8rem" target="_blank">详细了解 ></a>
+        <a href="https://mp.weixin.qq.com/s/qSEY3YuvaH3oAvlhFBPCww" class="btn btn-sm btn-outline-primary" style="font-size:0.8rem; margin-top:auto; align-self:flex-start;" target="_blank">详细了解 ></a>
       </div>
     </div>
   </div>
@@ -118,6 +118,7 @@ ASLP@NPU 高度重视科研成果的工程化与产业落地，长期与工业�
 <div style="margin-top:1.2rem; padding:1rem 1.2rem; border:1px solid var(--global-divider-color, #dee2e6); border-radius:6px; background:var(--global-bg-color, #f8f9fa);">
   <h5 style="margin-top:0;"><i class="fa-brands fa-github" style="margin-right:0.4rem;"></i>开源项目概览</h5>
   <ul style="margin-bottom:0; padding-left:1.2rem; line-height:1.9;">
+    <li><strong><a href="https://github.com/ASLP-lab/MeanVC2" target="_blank">MeanVC2</a></strong> — 面向鲁棒低延迟流式处理的零样本语音转换</li>
     <li><strong><a href="https://github.com/Soul-AILab/SoulX-Transcriber" target="_blank">SoulX-Transcriber</a></strong> — 面向复杂对话的端到端多说话人语音转录框架</li>
     <li><strong><a href="https://github.com/ASLP-lab/YingMusic-Singer-Plus" target="_blank">YingMusic-Singer+</a></strong> — 支持灵活歌词操控与无标注旋律引导的可控歌声合成</li>
     <li><strong><a href="https://github.com/Soul-AILab/SoulX-Podcast" target="_blank">SoulX-Podcast</a></strong> — 基于文本生成高保真播客，支持多人对话、多种方言</li>
