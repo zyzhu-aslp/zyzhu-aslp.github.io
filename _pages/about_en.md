@@ -26,7 +26,7 @@ Lei Xie is a Professor at Northwestern Polytechnical University, where he leads 
 
 He is also committed to building open-source tools and data resources for the research community, including the widely used [WeNet](https://github.com/wenet-e2e/wenet) toolkit and the [WenetSpeech](https://github.com/wenet-e2e/WenetSpeech) open-data series.
 
-Professor Xie has published over 400 papers, received more than 20,000 [Google Scholar](https://scholar.google.com/citations?user=Qddov9wAAAAJ) citations, and has an H-index of 63. His work has received multiple best paper awards, won international challenge championships, and has been translated into industrial applications. He currently serves as Vice Chairperson of ISCA SIG-CSLP and Senior Area Editor for IEEE/ACM TASLP and IEEE SPL.
+Professor Xie has published over 400 papers, received more than 20,000 [Google Scholar](https://scholar.google.com/citations?user=Qddov9wAAAAJ) citations, and has an H-index of 66. His work has received multiple best paper awards, won international challenge championships, and has been translated into industrial applications. He currently serves as Vice Chairperson of ISCA SIG-CSLP and Senior Area Editor for IEEE/ACM TASLP and IEEE SPL.
 
 <!-- ═══════════ 联系方式 ═══════════ -->
 
@@ -49,7 +49,7 @@ Dr. Xie received his Ph.D. in Computer Engineering from NPU, where his doctoral 
 
 He has received several honors and recognitions, including the New Century Excellent Talents Program of the Ministry of Education of China, the Shaanxi Young Science and Technology Star Award, recognition as one of the World’s Top 2% Scientists (Stanford University & Elsevier), and the title of Huawei Cloud AI Distinguished Teacher.
 
-Professor Xie has published over 400 peer-reviewed papers in audio, speech, and language processing, with more than 20,000 citations on Google Scholar and an H-index of 63. His work has received multiple best paper awards at international conferences and won several international challenge championships. A number of his research outcomes have also been successfully translated into real-world industrial applications.
+Professor Xie has published over 400 peer-reviewed papers in audio, speech, and language processing, with more than 20,000 citations on Google Scholar and an H-index of 66. His work has received multiple best paper awards at international conferences and won several international challenge championships. A number of his research outcomes have also been successfully translated into real-world industrial applications.
 
 At ASLP@NPU, he mentors a diverse group of students and researchers working at the intersection of speech, audio, and language intelligence. He is also an active contributor to the research community, serving in leadership and editorial roles. He currently serves as Vice Chairperson of the ISCA Special Interest Group on Chinese Spoken Language Processing (SIG-CSLP) and as Senior Area Editor for both IEEE/ACM Transactions on Audio, Speech, and Language Processing and IEEE Signal Processing Letters.
 

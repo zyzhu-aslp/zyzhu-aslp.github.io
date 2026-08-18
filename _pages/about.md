@@ -25,7 +25,7 @@ social: true
 
 他长期致力于建设面向学术界的开源工具与数据资源，指导了被广泛使用的 [WeNet](https://github.com/wenet-e2e/wenet) 语音识别工具包和 [WenetSpeech](https://github.com/wenet-e2e/WenetSpeech) 开源语音数据系列等项目。
 
-他曾获得多项荣誉，包括教育部新世纪优秀人才支持计划、陕西省青年科技新星、全球前2%顶尖科学家（斯坦福大学 & Elsevier）以及华为云 AI 名师等。已发表论文 400 余篇，[Google Scholar](https://scholar.google.com/citations?user=Qddov9wAAAAJ) 引用超过 20000 次，H-index 为 63。曾获多项国际会议最佳论文奖及国际评测冠军，诸多研究成果已实现产业落地。现任 ISCA SIG-CSLP 副主席，并担任 IEEE/ACM TASLP 与 IEEE SPL 的高级领域编委（SAE）。
+他曾获得多项荣誉，包括教育部新世纪优秀人才支持计划、陕西省青年科技新星、全球前2%顶尖科学家（斯坦福大学 & Elsevier）以及华为云 AI 名师等。已发表论文 400 余篇，[Google Scholar](https://scholar.google.com/citations?user=Qddov9wAAAAJ) 引用超过 20000 次，H-index 为 66。曾获多项国际会议最佳论文奖及国际评测冠军，诸多研究成果已实现产业落地。现任 ISCA SIG-CSLP 副主席，并担任 IEEE/ACM TASLP 与 IEEE SPL 的高级领域编委（SAE）。
 
 <!-- ═══════════ 联系方式 ═══════════ -->
 
@@ -48,7 +48,7 @@ social: true
 
 他曾获得多项荣誉，包括教育部新世纪优秀人才支持计划、陕西省青年科技新星、全球前2%顶尖科学家（斯坦福大学 & Elsevier）以及华为云 AI 名师等。
 
-谢磊教授已在音频、语音与语言处理领域发表400余篇同行评议论文，Google Scholar 引用超过 20000 次，H-index 为 63。其研究成果曾多次获得国际学术会议最佳论文奖，并在多项国际评测竞赛中取得冠军。诸多研究成果也已成功应用于产业实践。
+谢磊教授已在音频、语音与语言处理领域发表400余篇同行评议论文，Google Scholar 引用超过 20000 次，H-index 为 66。其研究成果曾多次获得国际学术会议最佳论文奖，并在多项国际评测竞赛中取得冠军。诸多研究成果也已成功应用于产业实践。
 
 在 ASLP@NPU，他指导着一批背景多元的学生和研究人员，围绕语音、音频与语言智能开展前沿研究。他也长期活跃于国际学术共同体，担任多个学术组织和期刊的重要职务。目前，他担任国际语音通信协会 ISCA 中文口语语言处理兴趣组（SIG-CSLP）副主席，以及 IEEE/ACM Transactions on Audio, Speech, and Language Processing 和 IEEE Signal Processing Letters 的高级领域编委（Senior Area Editor）。
 

@@ -12,6 +12,19 @@
   selected     = {true}
 }
 
+@inproceedings{Shao2026listening,
+  title        = {Listening with Time: Precise Temporal Awareness for Long-Form Audio Understanding},
+  author       = {Shao, Mingchen and Su, Hang and Tian, Wenjie and Mu, Bingshen and Lin, Zhennan and Fan, Lichun and Luo, Zhenbo and Luan, Jian and Xie, Lei},
+  booktitle    = {ACM MM},
+  year         = {2026},
+  time         = {2026-10-27},
+  abbr         = {ACM MM},
+  code         = {https://github.com/alanshaoTT/LAT-Audio-Repo},
+  arxiv        = {2604.22245},
+  abstract     = {While Large Audio Language Models (LALMs) achieve strong performance on short audio, they degrade on long-form inputs. This degradation is more severe in temporal awareness tasks, where temporal alignment becomes increasingly inaccurate as audio duration grows. We attribute these limitations to the lack of data, benchmarks, and modeling approaches tailored for long-form temporal awareness. To bridge this gap, we first construct LAT-Chronicle, a 1.2k hour long-form audio dataset with temporal annotations across real-world scenarios. We further develop LAT-Bench, the first human-verified benchmark supporting audio up to 30 minutes while covering three core tasks: Dense Audio Caption, Temporal Audio Grounding, and Targeted Audio Caption. Leveraging these resources, we propose LAT-Audio, formulating temporal awareness as a progressive global-to-local reasoning paradigm. A global timeline is first constructed as an aligned temporal-semantic context,and the Think-With-Audio Chain-of-Thought (TWA-CoT) is then introduced to perform iterative reasoning by incorporating local audio information via tool use. Experiments show that LAT-Audio surpasses existing models on long-form audio temporal awareness tasks and improves robustness to input duration. We release the dataset, benchmark, and model to facilitate future research at https://github.com/alanshaoTT/LAT-Audio-Repo.},
+  selected     = {true}
+}
+
 @inproceedings{Li2026audiocogito,
   title        = {Audio-Cogito: Towards Deep Audio Reasoning in Large Audio Language Models},
   author       = {Li, Longhao and Chen, Hongjie and Li, Zehan and Hu, Qihan and Kang, Jian and Li, Jie and Xie*, Lei and Li, Yongxiang},
@@ -265,7 +278,6 @@
   website      = {https://mp.weixin.qq.com/s/HvSCJWlKRzODGS_dtwIuKQ},
   arxiv        = {2508.04096},
   abstract     = {Large language model (LLM)-based automatic speech recognition (ASR) achieves strong performance but often incurs high computational costs. This work investigates how to obtain the best LLM-ASR performance efficiently. Through comprehensive and controlled experiments, we find that pretraining the speech encoder before integrating it with the LLM leads to significantly better scaling efficiency than the standard practice of joint post-training of LLM-ASR. Based on this insight, we propose a new multi-stage LLM-ASR training strategy, EFIN: Encoder First Integration. Among all training strategies evaluated, EFIN consistently delivers better performance (relative to 21.1% CERR) with significantly lower computation budgets (49.9% FLOPs). Furthermore, we derive a scaling law that approximates ASR error rates as a computation function, providing practical guidance for LLM-ASR scaling.},
-  selected     = {true}
 }
 
 @inproceedings{Chen2025diffrhythm,
@@ -317,18 +329,6 @@
   website      = {https://mp.weixin.qq.com/s/dUlkUq6edx8Z3YysERb4CA},
   arxiv        = {2507.10109},
   abstract     = {While recent video-to-audio (V2A) models can generate realistic background audio from visual input, they largely overlook speech, an essential part of many video soundtracks. This paper proposes a new task, video-to-soundtrack (V2ST) generation, which aims to jointly produce synchronized background audio and speech within a unified framework. To tackle V2ST, we introduce DualDub, a unified framework built on a multimodal language model that integrates a multimodal encoder, a cross-modal aligner, and dual decoding heads for simultaneous background audio and speech generation. Specifically, our proposed cross-modal aligner employs causal and non-causal attention mechanisms to improve synchronization and acoustic harmony. Besides, to handle data scarcity, we design a curriculum learning strategy that progressively builds the multimodal capability. Finally, we introduce DualBench, the first benchmark for V2ST evaluation with a carefully curated test set and comprehensive metrics. Experimental results demonstrate that DualDub achieves state-of-the-art performance, generating high-quality and well-synchronized soundtracks with both speech and background audio.},
-}
-
-@inproceedings{Shao2025listening,
-  title        = {Listening with Time: Precise Temporal Awareness for Long-Form Audio Understanding},
-  author       = {Shao, Mingchen and Su, Hang and Tian, Wenjie and Mu, Bingshen and Lin, Zhennan and Fan, Lichun and Luo, Zhenbo and Luan, Jian and Xie, Lei},
-  booktitle    = {ACM MM},
-  year         = {2025},
-  time         = {2025-10-27},
-  abbr         = {ACM MM},
-  code         = {https://github.com/alanshaoTT/LAT-Audio-Repo},
-  arxiv        = {2604.22245},
-  abstract     = {While Large Audio Language Models (LALMs) achieve strong performance on short audio, they degrade on long-form inputs. This degradation is more severe in temporal awareness tasks, where temporal alignment becomes increasingly inaccurate as audio duration grows. We attribute these limitations to the lack of data, benchmarks, and modeling approaches tailored for long-form temporal awareness. To bridge this gap, we first construct LAT-Chronicle, a 1.2k hour long-form audio dataset with temporal annotations across real-world scenarios. We further develop LAT-Bench, the first human-verified benchmark supporting audio up to 30 minutes while covering three core tasks: Dense Audio Caption, Temporal Audio Grounding, and Targeted Audio Caption. Leveraging these resources, we propose LAT-Audio, formulating temporal awareness as a progressive global-to-local reasoning paradigm. A global timeline is first constructed as an aligned temporal-semantic context,and the Think-With-Audio Chain-of-Thought (TWA-CoT) is then introduced to perform iterative reasoning by incorporating local audio information via tool use. Experiments show that LAT-Audio surpasses existing models on long-form audio temporal awareness tasks and improves robustness to input duration. We release the dataset, benchmark, and model to facilitate future research at https://github.com/alanshaoTT/LAT-Audio-Repo.},
 }
 
 @inproceedings{Xue2025idealllm,
